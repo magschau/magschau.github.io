@@ -1,0 +1,52 @@
+﻿{
+	"1" : {
+			"name" 				: "Drużyna Czerwona",
+			"char_name"			: "Raphael",
+			"char_message"		: "Witamy w obozie treningowym! Oto moje nowe wyzwanie dla Ciebie!",
+			"char_image"		: "team-red.png",
+			"team_image"		: "team-red.png",
+			"task_header_title"	: "Dzisiejsze wyzwanie",
+			"task_desc"			: "Freestyle: Zrób coś, co najbardziej lubisz robić na świeżym powietrzu",
+			"task_time"			: "0",
+			"task_image"		: "tasks.png"
+			
+	},
+	
+	"2" : {
+			"name" 				: "Drużyna Żołta",
+			"char_name"			: "Michelangelo",
+			"char_message"		: "Witamy w obozie treningowym! Oto moje nowe wyzwanie dla Ciebie!",
+			"char_image"		: "team-yellow.png",
+			"team_image"		: "team-yellow.png",
+			"task_header_title"	: "Dzisiejsze wyzwanie",
+			"task_desc"			: "Freestyle: Zrób coś, co najbardziej lubisz robić na świeżym powietrzu",
+			"task_time"			: "0",
+			"task_image"		: "tasks.png"
+	},
+	
+	"3" : {
+			"name" 				: "Drużyna Fioletowa",
+			"char_name"			: "Donatello",
+			"char_message"		: "Witamy w obozie treningowym! Oto moje nowe wyzwanie dla Ciebie!",
+			"char_image"		: "team-purple.png",
+			"team_image"		: "team-purple.png",
+			"task_header_title"	: "Dzisiejsze wyzwanie",
+			"task_desc"			: "Freestyle: Zrób coś, co najbardziej lubisz robić na świeżym powietrzu",
+			"task_time"			: "0",
+			"task_image"		: "tasks.png"
+	},
+	
+	"4" : {
+			"name" 				: "Drużyna Niebieska",
+			"char_name"			: "Leonardo",
+			"char_message"		: "Witamy w obozie treningowym! Oto moje nowe wyzwanie dla Ciebie!",
+			"char_image"		: "team-blue.png",
+			"team_image"		: "team-blue.png",
+			"task_header_title"	: "Dzisiejsze wyzwanie",
+			"task_desc"			: "Freestyle: Zrób coś, co najbardziej lubisz robić na świeżym powietrzu",
+			"task_time"			: "0",
+			"task_image"		: "tasks.png"
+	}
+}
+		
+		

@@ -1,0 +1,38 @@
+﻿{
+	"btn" : {
+								"done" 			: "Gotowy",
+								"done_v2" 		: "Gotowy?",
+								"go"			: "START!",
+								"refresh"		: "Jeszcze raz",
+								"back"			: "Cofnij"
+							},
+	"alert" 			:	{
+								"ready" 		: "Do startu...",
+								"set"			: "gotowi...",
+								"go"			: "START!"
+							},	
+	"slime_points" :	[
+								"Tak trzymać! Zebrałeś walizkę pełną slime'u dla drużyny <span class='team-color'></span> (niebieskiej, czerwonej, żółtej, fioletowej)! Slime on!",
+								"Świetna robota!Zebrałeś kubełek od popcornu pełen slime'u dla drużyny <span class='team-color'></span> (niebieskiej, czerwonej, żółtej, fioletowej)! Tak trzymaj i slime on!",
+								"Otrzymujesz plecak pełen slime'u dla swojej drużyny! Slime on!",
+								"Zebrałeś puchar pełen slime'u  dla drużyny <span class='team-color'></span> (niebieskiej, czerwonej, żółtej, fioletowej)! Graj dalej i slime on!",
+								"Zebrałeś opakowanie pełne slime'u dla swojej drużyny. Slime on!",
+								"Otrzymałeś kroplę slime'u dla swojej drużyny. Slime on!",
+								"Dobra robota! Otrzymujesz szklankę slime'u  dla drużyny <span class='team-color'></span> (niebieskiej, czerwonej, żółtej, fioletowej). Slime on!"
+							],
+	"content" 		: {
+								"home_title" 				: "Do której drużyny <span class='text-nowrap'>należysz?</span>",
+								"home_desc" 				: "You can earn slime points by participating in daily challenges",
+								"slime_title" 				: "Slime Cup",
+								"slime_sub_title" 			: "Treningowym",
+								"about_desc" 				: "<p>Cześć fani slime'owania! Co jest potrzebne, żeby wygrać Slime Cup? No tak, ta słynna kleista i zielona maź, z którą trzeba się jakoś uporać, i oczywiście pokonanie we współzawodnictwie przeciwnych drużyn. Aby tego dokonać, drużyny biorące udział w Nickelodeon Slime Cup muszą trenować i wykazać się niestrudzoną aktywnością.</p><p>Teraz kolej na Ciebie!</p><p>Ty też możesz wziąć udział w zabawie, towarzysząc innemu członkowi drużyny uczestniczącej w Slime Cup w jego treningu. Zobacz ich ulubione ćwiczenia, które pomogą Ci zdobyć formę niezbędną do zmagań w ramach Slime Cup Challenge. Każda Twoja aktywność oznacza więcej slime'u dla Twojej drużyny.</p>",
+								"measure_slime_title"		: "Trwa obliczanie ilości slime`u...",
+								"reward_title"				: "Dobra robota!",
+								"reward_content_top"		: "Slime Points!",
+								"reward_content_bottom"		: "Wpadnij znów jutro, by podjąć kolejne wyzwanie!",
+								"accomplish_title"			: "Dobra robota!",
+								"next_challenge_title"		: "Następne wyzwanie rozpocznie się w",
+								"next_challenge_content"	: "Wpadnij znów jutro, by podjąć kolejne wyzwanie!",
+								"popup_message"				: "Jesteś gotowy, by zdobyć slime, który dostanie Drużyna <span class='team-color'></span>?"
+							}
+}
