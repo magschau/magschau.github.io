@@ -12,13 +12,13 @@
 								"go"			: "START!"
 							},	
 	"slime_points" :	[
-								"Tak trzymać! Zebrałeś walizkę pełną slime'u dla drużyny <span class='team-color'></span> (niebieskiej, czerwonej, żółtej, fioletowej)! Slime on!",
-								"Świetna robota!Zebrałeś kubełek od popcornu pełen slime'u dla drużyny <span class='team-color'></span> (niebieskiej, czerwonej, żółtej, fioletowej)! Tak trzymaj i slime on!",
+								"Tak trzymać! Zebrałeś walizkę pełną slime'u dla swojej drużyny! Slime on!",
+								"Świetna robota!Zebrałeś kubełek od popcornu pełen slime'u dla swojej drużyny! Tak trzymaj i slime on!",
 								"Otrzymujesz plecak pełen slime'u dla swojej drużyny! Slime on!",
-								"Zebrałeś puchar pełen slime'u  dla drużyny <span class='team-color'></span> (niebieskiej, czerwonej, żółtej, fioletowej)! Graj dalej i slime on!",
+								"Zebrałeś puchar pełen slime'u dla swojej drużyny! Graj dalej i slime on!",
 								"Zebrałeś opakowanie pełne slime'u dla swojej drużyny. Slime on!",
 								"Otrzymałeś kroplę slime'u dla swojej drużyny. Slime on!",
-								"Dobra robota! Otrzymujesz szklankę slime'u  dla drużyny <span class='team-color'></span> (niebieskiej, czerwonej, żółtej, fioletowej). Slime on!"
+								"Dobra robota! Otrzymujesz szklankę slime'u  dla swojej drużyny! Slime on!"
 							],
 	"content" 		: {
 								"home_title" 				: "Do której drużyny <span class='text-nowrap'>należysz?</span>",
