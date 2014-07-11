@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+html
+{
+	
+}
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background: #f3870f;
+	
+}
+
+.modal {
+    overflow-y: auto;
+}
+.modal-header
+{
+	background-image: url('../images/assets/modal-header.png');
+	background-repeat: repeat-x;
+	height: 70px;
+}
+#popup-alert .modal-footer
+{
+	background-image: url('../images/assets/modal-footer.png');
+	background-repeat: repeat-x;
+	height: 70px;
+}
+#popup-dialog .modal-footer
+{
+	background: #fff;
+	margin-top: 0px;
+}
+#popup-alert .modal-footer
+{
+	margin-top: 0px;
+}
+#popup-team-message
+{
+	margin-top:10px;
+	font-size:30px;
+}
+.modal-content-alert
+{
+	font-size:100px;
+	font-weight:bold;
+}
+/* header box */
+.box-header
+{	
+	background-image: url('../images/assets/nav-header.png');
+	
+}
+
+
+.timer-bg
+{
+	background-image: url('../images/assets/timer-bg.png');
+}
+
+.box-header,
+.timer-bg
+{
+	background-repeat: repeat-x;
+	height: 46px;
+}
+
+.box-icon-up
+{
+	background-image: url('../images/assets/sm-arrow-up.png');
+}
+.box-icon-down
+{
+	background-image: url('../images/assets/sm-arrow-down.png');
+	
+}
+.box-icon-up,
+.box-icon-down
+{
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 7px;
+	width: 33px;
+	height: 32px;
+}
+
+.box-title
+{
+	display: inline-block;
+	font-weight: bold;
+	color: #fff;
+	margin-top:10px;
+	margin-left:50px;
+	font-size: 20px;
+}
+
+.box-content
+{
+	background:#fff;
+	margin-bottom: 30px;
+}
+
+/* header box */
+
+
+.title-app
+{
+	text-align: left;
+	line-height: 45px;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.about-app
+{
+	color: #fff;
+	font-size: 12px;
+}
+
+#char-image img
+{
+	width:95%;
+	height:95%;
+}
+
+.char-name
+{
+	margin-top:30px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration:underline;
+}
+
+.char-team
+{
+	margin-top: -5px;
+	font-size: 30px;
+	line-height: 30px;
+	color: #fff;
+}
+#char-message
+{
+	margin: 15px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+.team-button
+{
+	padding: 10px 0px;
+}
+
+#task-image
+{
+	margin-top:10px;
+}
+
+#task-desc
+{
+	font-weight: bold;
+}
+
+#team-box-title
+{
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size : 20px;
+	font-weight: bold;
+	color: #fff;
+	text-align:left;
+}
+.hcenter
+{
+	height:110px;
+	margin: 10px auto;
+	display:inline-block;
+	text-align:center;
+}
+
+.vcenter 
+{
+	height:120px;
+	width:100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+#task-button
+{
+	margin-bottom: 10px;
+}
+.btn-slime
+{
+	color:#fff;
+	font-size: 32px;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+}
+.white-divider
+{
+	width:100%;
+	height:5px;
+	background: #fff;
+}
+
+.task-animate-go
+{
+	color: #fff;
+	padding-top: 0px;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#task-countdown-timer
+{
+	color: #fff;
+	font-size: 45px;
+	line-height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+/* bootstrap media*/
+@media (min-width: 288px) 
+{
+	.title-app
+	{
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) 
+{
+	.container
+	{
+		margin-top:30px;
+	}
+	
+	.title-app
+	{
+		text-align: center;
+	}
+}
+@media (min-width: 992px) 
+{
+		
+	
+	.title-app
+	{
+		text-align: left;
+		margin-top: 30px;
+	}
+	
+}
+@media (min-width: 1200px) 
+{
+	
+}
+
+/* bootstrap media*/
+@media only screen 
+and (max-width : 585px)
+{
+	#task-image
+	{
+		text-align: center;
+		width: 100%;
+	}
+	#task-button
+	{
+		margin-left: 25%;
+		width: 50%;
+	}
+	.hcenter
+	{
+		height:100%;
+		margin: 10px auto;
+		display:inline-block;
+		text-align:center;
+	}
+
+	.vcenter 
+	{
+		height:100%;
+		width:100%;
+		display: table-cell;
+		vertical-align: middle;
+	}
+} 
+
+/* mobile */
+
+/* Android (landscape) ----------- */
+@media only screen 
+and (min-width : 381px) 
+and (max-width : 662px)
+{
+/* Styles */
+	.team-button img
+	{
+		width: 24%;
+	}
+	.char-name
+	{
+		font-size: 35px;
+	}
+	
+	.char-team
+	{
+		font-size: 25px;
+	}
+	.char-image
+	{
+		width:20%;
+	}
+	
+}
+
+/* Android (portrait) ----------- */
+@media only screen 
+and (max-width : 380px) 
+{
+/* Styles */
+	.slime-cup-logo img
+	{
+		width:95%;
+	}
+	
+	.team-button img
+	{
+		width: 49%;
+	}
+	
+	.box-title
+	{
+		font-size: 13px;
+	}
+	
+	.char-name
+	{
+		font-size: 25px;
+	}
+	
+	.char-team
+	{
+		font-size: 20px;
+	}
+	.char-image
+	{
+		width:30%;
+	}
+	.char-info
+	{
+		width:70%;
+	}
+	#task-button
+	{
+		margin-left: 10%;
+		width: 80%;
+	}
+	
+}
+
+
+
+
+
+/* mobile */

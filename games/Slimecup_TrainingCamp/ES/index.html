@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1, minimum-scale=0.1"/>
+	
+	<title>Slime Cup Training Camp</title>
+	<link rel="shortcut icon" type="image/png" href="includes/images/assets/favicon.png"/>
+	<!-- Bootstrap 3 css  -->
+	<link rel="stylesheet" href="includes/css/bootstrap.min.css">
+	
+	<!-- Countdown timer css -->
+	<link rel="stylesheet" type="text/css" href="includes/css/jquery.countdown.css" />
+		
+	<link rel="stylesheet" href="includes/css/jpreloader.css" />
+	
+	
+	<!-- my style -->
+	<link rel="stylesheet" href="includes/css/styles.css">
+
+	
+	<!-- jquery -->
+	<script src="includes/js/jquery.min.js"></script>
+	
+	<!-- Bootstrap js 3 -->
+	<script src="includes/js/bootstrap.min.js"></script>
+	
+	<!-- Countdown timer js -->
+	<script type="text/javascript" src="includes/js/jquery.plugin.js"></script> 
+	<script type="text/javascript" src="includes/js/jquery.countdown.js"></script>
+	
+	<!-- preloader -->
+	<script type="text/javascript" src="includes/js/jpreloader.js"></script>
+	<!--[if lt IE 9]>
+		<style>
+			body
+			{
+				position: fixed;
+				overflow: hidden;
+			}
+			.not-supported
+			{
+				background-image: url('includes/images/assets/hires-bg.png');
+				background-repeat: no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				background-color:#fe8701;
+				position: fixed;
+				left:0px;
+				top:0px;
+				overflow: hidden;
+				width:100%;
+				height:100%;
+				z-index:999;
+				display:block;
+				margin: 10px auto;
+				text-align: center;
+			}
+			.message-not-supported
+			{
+				color:#fff;
+				font-size:40px;
+				text-shadow: 1px 1px #ae6809;
+				font-weight: bold;
+				
+			}
+		</style>
+	<![endif]-->
+		<style>
+		#modal-popup {
+			overflow: hidden;
+		}
+		</style>
+</head>
+<body>
+	<div class="not-supported">
+		<div class="message-not-supported">Sorry, Your browser <br /> is not supported</div>
+		<img src="includes/images/assets/not-supported.png">
+	</div>
+	<!-- This section is for Splash Screen -->
+	<section id="jSplash">
+		<div id="logo-splash">
+			<img src="includes/images/assets/slime-cup-logo.png"/>
+		</div>
+	</section>
+	<!-- End of Splash Screen -->
+	<div class="container wrap">
+		<div id="home-container"> <!-- home container Start -->
+			<div class="row">
+					<div class="col-xs-12 col-sm-12 col-lg-10 col-lg-offset-1">
+						<div id="slime-cup-logo" class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-6 text-center">
+							<img src="includes/images/assets/slime-cup-logo.png" />
+						</div>
+						<div class="col-lg-5 col-md-5 col-sm-6">
+							<div id="title-app" class="text-center"></div>
+							<div class="white-divider"></div>
+							<div id="about-app">
+								
+							</div>
+						</div>
+					</div>
+					<div id="team-button-container" class="col-xs-12 col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+						<div class="col-xs-12 col-md-12 box-header">
+							<div id="home-box-title" class="vcenter-xs"></div>
+						</div>
+						<div class="col-xs-12 col-md-12 box-content text-center">
+							<div id="team-button">
+								<img  src="includes/images/team_icons/team-red.png" class="btn-team" data-id="1" data-toggle="modal" data-target="#modal-popup"/>
+								<img  src="includes/images/team_icons/team-yellow.png" class="btn-team" data-id="2" data-toggle="modal" data-target="#modal-popup"/>
+								<img  src="includes/images/team_icons/team-purple.png" class="btn-team" data-id="3" data-toggle="modal" data-target="#modal-popup"/>
+								<img  src="includes/images/team_icons/team-blue.png" class="btn-team" data-id="4" data-toggle="modal" data-target="#modal-popup"/>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div> <!-- home container end -->
+		
+		<!-- ========================== 2nd Container ========================== -->
+		
+		
+		<div id="team-container" style="display:none"> <!-- team container Start -->
+		
+			<div id="team-content" class="row">
+				<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+					
+					<div class="row">
+						<div id="char-image" class="col-xs-3 col-sm-5 col-md-5 col-lg-5" >
+							
+						</div>
+						
+						<div id="char-info" class="col-xs-9 col-sm-7 col-md-7 col-lg-7">
+							<div id="char-info-container"class="row">
+								<div id="char-name"></div>
+								<div class="white-divider"></div>
+								<div id="char-team"></div>
+							</div>
+						</div>
+					
+						<div id="char-message" class="col-xs-12 col-sm-7 col-md-7 col-lg-7 text-center">
+							
+						</div>
+						<div id="task-container" class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+							<div class="row text-center">
+								<div id="task-header" class="box-header col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0">
+									
+									<div id="team-box-title" class="vcenter-xs"></div>
+								</div>
+								<!-- task proccess -->
+								<div id="task-content" class="box-content col-xs-12 col-sm-12 ">
+									<div id="task-proccess" class="row text-center">
+										
+										<div id="task-image" class="col-xs-6 col-sm-6 col-md-6 col-lg-6"></div>
+										<div id="task-desc-container"class="col-xs-6">
+											<div class="hcenter">
+												<div id="task-desc" class="vcenter"></div>
+											</div>
+										</div>
+										<div id="task-button" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<div id="task-start" class="box-header btn-slime btn-go"></div>
+											<div id="task-done" class="box-header btn-slime btn-done-v2" style="display:none"></div>
+											<div class="timer-bg task-animate-go" style="display:none"></div>
+											<div id="task-countdown-timer" class="timer-bg" style="display:none"></div>
+										</div>
+										
+									</div>
+									<!-- reward proccess -->
+									<div id="reward-proccess" style="display:none" class="row text-center">
+										<div id="reward-desc-container"class="col-xs-12">
+											<div class="hcenter">
+												<div id="reward-desc" class="vcenter"></div>
+											</div>
+										</div>
+										<div id="reward-button" class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+											<div id="reward-claim" class="box-header btn-slime btn-done"></div>
+										</div>
+									</div>
+									
+									<!-- countdown timer for next event -->
+									<div id="next-event-proccess" style="display:none" class="row text-center">
+										<div id="day-countdown-timer" class="col-xs-10 col-xs-offset-1"></div>
+										<div id="next-event-desc-container" class="col-xs-12">
+											<div class="hcenter-sm">
+												<div id="next-event-desc" class="vcenter-sm"></div>
+											</div>
+										</div>
+										<div id="reward-button" class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+											<div id="start-over-button" class="box-header btn-slime btn-refresh"></div>
+										</div>
+									</div>
+									
+								</div>
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div> <!-- team container end -->
+		
+	</div>
+
+	<div class="modal fade" id="modal-alert" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+		<div class="modal-dialog">
+			<div class="modal-content" id="popup-alert">
+				<div class="modal-header"></div>
+				
+				<div class="modal-body modal-content-alert text-center">
+					<!-- content -->
+					
+				</div>
+				
+				<div class="modal-footer"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="modal-popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+		<div class="modal-dialog">
+			<div class="modal-content" id="popup-dialog">
+				<div class="modal-header"></div>
+				
+				<div class="modal-body row modal-content-popup">
+					<!-- content -->
+					
+				</div>
+				
+				<div class="modal-footer text-align">
+					<div id="btn-popup" class="col-lg-12 text-center">
+						<div id="modal-approve" class="box-header btn-slime btn-go col-xs-5 col-sm-5 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 btn-approve" ></div>
+						<div id="modal-back" class="box-header btn-slime btn-back col-xs-5 col-xs-offset-2 col-sm-5 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2"  data-dismiss="modal" aria-hidden="true"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<footer>
+</footer>
+</html>
+
+<script>
+
+</script>
+<script type="text/javascript" src="includes/js/main.js?v=1"></script>
