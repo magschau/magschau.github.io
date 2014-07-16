@@ -11,7 +11,7 @@
 
 <strings defaultFont="Basic">
 	<!--Preloader-->
-	<string id="loading"				fontName="Basic"	fontScale=".25"	offsetX="0" offsetY="0"><![CDATA[LOADING]]></string>
+	<string id="loading"				fontName="Basic"	fontScale=".25"	offsetX="0" offsetY="0"><![CDATA[LOADING2]]></string>
 	<!--Basics-->
 	<string id="title"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[HARDEST GAME EVER]]></string>
 	<string id="tap_anywhere"			fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[TAP ANYWHERE TO PLAY]]></string>
