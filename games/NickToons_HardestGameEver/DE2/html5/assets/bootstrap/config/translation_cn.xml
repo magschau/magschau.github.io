@@ -318,7 +318,7 @@
 	<string id="achievement_desc_default"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Achievement Description]]></string>
 	<string id="achievement_name_lose10"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Noob Award]]></string>
 	<string id="achievement_desc_lose10"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Fail a lot of times!]]></string>
-	<string id="achievement_name_lose1"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Not Even Trying]]></string>
+	<string id="achievement_name_lose1"			fontName="bolt_bold"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Not Even Trying]]></string>
 	<string id="achievement_desc_lose1"			fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Lose on wave 1 -_-]]></string>
 	<string id="achievement_name_deflect100"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Just Getting Started]]></string>
 	<string id="achievement_desc_deflect100"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Deflect 100 regular bubbles]]></string>	
