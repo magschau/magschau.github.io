@@ -11,129 +11,129 @@
 
 <strings defaultFont="Basic">
 	<!--Preloader-->
-	<string id="loading"				fontName="Basic"	fontScale=".25"	offsetX="0" offsetY="0"><![CDATA[LOADING]]></string>
+	<string id="loading"				fontName="Basic"	fontScale=".23"	offsetX="0" offsetY="0"><![CDATA[LADEVORGANG]]></string>
 	<!--Basics-->
-	<string id="title"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[HARDEST GAME EVER]]></string>
-	<string id="tap_anywhere"			fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[TAP ANYWHERE TO PLAY]]></string>
-	<string id="click_anywhere"			fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[CLICK ANYWHERE TO PLAY]]></string>
-	<string id="tap_anywhere_again"		fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play Again]]></string>
-	<string id="click_anywhere_again"	fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play Again]]></string>	
-	<string id="tap_anywhere_skip"		fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Skip]]></string>
-	<string id="click_anywhere_skip"	fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Skip]]></string>	
-	<string id="play"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Play]]></string>
-	<string id="play_again"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Try Again]]></string>	
-	<string id="how_to_play"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
-	<string id="next"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Next]]></string>
-	<string id="back"					fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Back]]></string>
-	<string id="continue"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Continue]]></string>
-	<string id="close"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[close]]></string>
+	<string id="title"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[DAS GROßE BALLSPIEL]]></string>
+	<string id="tap_anywhere"			fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[TIPPE IRGENDWO HIN]]></string>
+	<string id="click_anywhere"			fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[KLICKE IRGENDWO HIN]]></string>
+	<string id="tap_anywhere_again"		fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tippe irgendwo hin]]></string>
+	<string id="click_anywhere_again"	fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Klicke irgendwo hin]]></string>	
+	<string id="tap_anywhere_skip"		fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tippe irgendwo hin zum Überspringen]]></string>
+	<string id="click_anywhere_skip"	fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Klicke irgendwo hin zum Überspringen]]></string>	
+	<string id="play"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Spiel]]></string>
+	<string id="play_again"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Nochmal]]></string>	
+	<string id="how_to_play"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Anleitung]]></string>
+	<string id="next"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Weiter]]></string>
+	<string id="back"					fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Zurück]]></string>
+	<string id="continue"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Weiter]]></string>
+	<string id="close"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Schließen]]></string>
 	<string id="printable"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Printable]]></string>
-	<string id="orientation_landscape"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Please flip back to Landscape mode.]]></string>
+	<string id="orientation_landscape"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Spiele bitte im Querformat.]]></string>
 	<!--Game Buttons-->
-	<string id="back"					fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Back]]></string>
-	<string id="yes"					fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Yes]]></string>
-	<string id="no"						fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[No]]></string>
+	<string id="back"					fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Zurück]]></string>
+	<string id="yes"					fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Ja]]></string>
+	<string id="no"						fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Nein]]></string>
 	<!-- Main Menu Screen -->
-	<string id="menu_play"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[PLAY]]></string>
-	<string id="menu_achievements"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[ACHIEVEMENTS]]></string>
-	<string id="menu_unlockable"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[UNLOCKABLES]]></string>
+	<string id="menu_play"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[SPIEL]]></string>
+	<string id="menu_achievements"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[ERFOLGE]]></string>
+	<string id="menu_unlockable"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[EXTRAS]]></string>
 	<!--Game Menu Screen-->
-	<string id="menu"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[MENU]]></string>
+	<string id="menu"					fontName="Basic"	fontScale=".8"	offsetX="0" offsetY="0"><![CDATA[MENÜ]]></string>
 	<!--Help Screen-->
-	<string id="help"					fontName="Basic"	fontScale=".8"	offsetX="0" offsetY="0"><![CDATA[HOW TO PLAY]]></string>
-	<string id="help_notouch"			fontName="Basic"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[OR]]></string>
-	<string id="help_touch"				fontName="Basic"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Touch screen and hold to move left and right. Stop the balls from hitting the floor!]]></string>
+	<string id="help"					fontName="Basic"	fontScale=".8"	offsetX="0" offsetY="0"><![CDATA[ANLEITUNG]]></string>
+	<string id="help_notouch"			fontName="Basic"	fontScale=".35"	offsetX="0" offsetY="0"><![CDATA[ODER]]></string>
+	<string id="help_touch"				fontName="Basic"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Berühre den Bildschirm und halte zieh den Finger in eine Richtung. Versuche alle Bälle abzufangen!]]></string>
 	<!--Quit Screen-->
-	<string id="quit"					fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Quit]]></string>
-	<string id="quit_confirm_header"	fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[QUIT?]]></string>
+	<string id="quit"					fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Beenden]]></string>
+	<string id="quit_confirm_header"	fontName="Basic"	fontScale=".8"	offsetX="0" offsetY="0"><![CDATA[AUFGEBEN?]]></string>
 	<!--End Screen-->
-	<string id="game_over"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Game Over]]></string>
+	<string id="game_over"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Spiel vorbei]]></string>
 	<!-- World Select Screen -->
-	<string id="select_world_header"	fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[STAGE SELECT]]></string>
-	<string id="world_sb"				fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[BIKINI BOTTOM]]></string>
-	<string id="world_fop"				fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[FAIRY WORLD]]></string>
-	<string id="world_winx"				fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[ALFEA]]></string>
-	<string id="world_snc"				fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[THE FRYCADE]]></string>
-	<string id="world_tmnt"				fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[THE SEWERS]]></string>
-	<string id="world_troll"			fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[HARDEST LEVEL EVER]]></string>
+	<string id="select_world_header"	fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[LEVELWAHL]]></string>
+	<string id="world_sb"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[BIKINI BOTTOM]]></string>
+	<string id="world_fop"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[WELT DER FEEN]]></string>
+	<string id="world_winx"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[ALFEA]]></string>
+	<string id="world_snc"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[DIE SPIELHÖLLE]]></string>
+	<string id="world_tmnt"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[DER KANAL]]></string>
+	<string id="world_troll"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[HAMMERSCHWERES LEVEL]]></string>
 	<!-- Character Select Screen -->
-	<string id="select_character_header"	fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[PLAYER SELECT]]></string>
-	<string id="char_spongebob"			fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[SPONGEBOB]]></string>
-	<string id="char_timmy"				fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[TIMMY]]></string>
-	<string id="char_bloom"				fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[BLOOM]]></string>
-	<string id="char_sanjay"			fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[SANJAY<br>& CRAIG]]></string>
-	<string id="char_leo"				fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[LEO]]></string>
-	<string id="char_mikey"				fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[MIKEY]]></string>
-	<string id="char_donnie"			fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[DON]]></string>
-	<string id="char_raph"				fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[RAPH]]></string>
+	<string id="select_character_header"	fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[SPIELERWAHL]]></string>
+	<string id="char_spongebob"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[SPONGEBOB]]></string>
+	<string id="char_timmy"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[TIMMY]]></string>
+	<string id="char_bloom"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[BLOOM]]></string>
+	<string id="char_sanjay"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[SANJAY<br>& CRAIG]]></string>
+	<string id="char_leo"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[LEO]]></string>
+	<string id="char_mikey"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[MIKEY]]></string>
+	<string id="char_donnie"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[DON]]></string>
+	<string id="char_raph"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[RAPH]]></string>
 	<!-- Progress Screen -->
-	<string id="progress_header"		fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[UNLOCKABLES]]></string>
-	<string id="progress_0"				fontName="Basic"	fontScale=".48"	offsetX="0" offsetY="0"><![CDATA[CHARACTERS]]></string>
-	<string id="progress_1"				fontName="Basic"	fontScale=".48"	offsetX="0" offsetY="0"><![CDATA[WORLDS]]></string>
-	<string id="progress_2"				fontName="Basic"	fontScale=".48"	offsetX="0" offsetY="0"><![CDATA[BUBBLES]]></string>
-	<string id="progress_3"				fontName="Basic"	fontScale=".48"	offsetX="0" offsetY="0"><![CDATA[PICKUPS]]></string>
-	<string id="progress_0_header"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[UNLOCKABLE CHARACTERS]]></string>
-	<string id="progress_1_header"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[UNLOCKABLE WORLDS]]></string>
-	<string id="progress_2_header"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[UNLOCKABLE BUBBLES]]></string>
-	<string id="progress_3_header"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[UNLOCKABLE PICKUPS]]></string>
+	<string id="progress_header"		fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[EXTRAS]]></string>
+	<string id="progress_0"				fontName="Basic"	fontScale=".48"	offsetX="0" offsetY="0"><![CDATA[FIGUREN]]></string>
+	<string id="progress_1"				fontName="Basic"	fontScale=".48"	offsetX="0" offsetY="0"><![CDATA[WELTEN]]></string>
+	<string id="progress_2"				fontName="Basic"	fontScale=".48"	offsetX="0" offsetY="0"><![CDATA[BÄLLE]]></string>
+	<string id="progress_3"				fontName="Basic"	fontScale=".48"	offsetX="0" offsetY="0"><![CDATA[OBJEKTE]]></string>
+	<string id="progress_0_header"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[FREISCHALTBARE FIGUREN]]></string>
+	<string id="progress_1_header"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[FREISCHALTBARE WELTEN]]></string>
+	<string id="progress_2_header"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[FREISCHALTBARE BÄLLE]]></string>
+	<string id="progress_3_header"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[FREISCHALTBARE OBJEKTE]]></string>
 	<string id="progress_secret"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[???]]></string>
 	
-	<string id="bubbles_deflected"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Deflected:]]></string>
-	<string id="bubbles_missed"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Missed:]]></string>
-	<string id="bubble_regular_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Falls straight down]]></string>
-	<string id="bubble_angle_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Falls down at an angle]]></string>
-	<string id="bubble_bird_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Flys across the screen and randomly darts down]]></string>
-	<string id="bubble_fairy_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Slowly weaves left and right as it falls]]></string>
-	<string id="bubble_breaker_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Breaks into 2 arc bubbles when deflected]]></string>
-	<string id="bubble_laser_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Shoots out of a laser really fast!]]></string>
-	<string id="bubble_bouncer_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Must be bounced 3 times to be deflected]]></string>
-	<string id="bubble_invisible_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Fades in and out while falling down, making it hard to keep track of.]]></string>
-	<string id="bubble_blink_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Randomly moves to a different position when falling]]></string>
-	<string id="bubble_antifairy_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Miss it and all bubbles speed up]]></string>
-	<string id="bubble_bottle_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Miss the bottle and it breaks and splats milk on the sreen]]></string>
-	<string id="bubble_plankton_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Miss it and Plankton shows up and throws extra bubbles]]></string>
-	<string id="bubble_trix_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Miss it and Icy shows up and throws extra bubbles]]></string>
-	<string id="bubble_krumm_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Miss it and Krumm shows up and throws extra bubbles]]></string>
-	<string id="bubble_ufo_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Miss it and a ufo shows up and throws extra bubbles]]></string>
-	<string id="bubble_mouser_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Miss it and mousers spawn]]></string>
-	<string id="bubble_litter_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Miss it and cat litter shows up, slowing you down]]></string>
-	<string id="bubble_arc_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Come from the bouncer bubble. It moves up and then comes back down.]]></string>
-	<string id="bubble_missile_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bubbles that Plankton fires]]></string>
-	<string id="bubble_projectile_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bubbles a ufo shoots at you]]></string>
-	<string id="bubble_eye_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bubbles that Krumm throws]]></string>
-	<string id="bubble_magic_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bubbles that Icy throws]]></string>
+	<string id="bubbles_deflected"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Abgewehrt:]]></string>
+	<string id="bubbles_missed"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Vorbei:]]></string>
+	<string id="bubble_regular_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Alles fällt gerade]]></string>
+	<string id="bubble_angle_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Alles fällt im Winkel]]></string>
+	<string id="bubble_bird_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Fliegt über den Bildschirm & wahhlos nach unten]]></string>
+	<string id="bubble_fairy_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Schlengelt langsam beim Fall]]></string>
+	<string id="bubble_breaker_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Zerfällt bei Berührung in zwei Bälle]]></string>
+	<string id="bubble_laser_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Wird schnell aus einem Laser geschossen]]></string>
+	<string id="bubble_bouncer_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Muss drei-mal abgewehrt werden]]></string>
+	<string id="bubble_invisible_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Wird beim Fall leicht unsichtbar]]></string>
+	<string id="bubble_blink_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Ändert beim Fall plötzlich die Position]]></string>
+	<string id="bubble_antifairy_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Einmal verfehlt, werden alle anderen Bälle schneller]]></string>
+	<string id="bubble_bottle_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Triffst du sie nicht, ist der Bildschirm voller Milch]]></string>
+	<string id="bubble_plankton_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Wenn verfehlt, wirft Plankton mehr Bälle]]></string>
+	<string id="bubble_trix_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Wenn verfehlt, wirft Icy mehr Bälle]]></string>
+	<string id="bubble_krumm_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Wenn verfehlt, wirft Krumm mehr Bälle]]></string>
+	<string id="bubble_ufo_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Wenn verfehlt, wirft ein UFO mehr Bälle]]></string>
+	<string id="bubble_mouser_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Wenn verfehlt, kommen fiese Mousers]]></string>
+	<string id="bubble_litter_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Wenn verfehlt, erscheint Katzendreck]]></string>
+	<string id="bubble_arc_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Es bewegt sich erst nach oben, dann nach unten.]]></string>
+	<string id="bubble_missile_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bälle von Plankton]]></string>
+	<string id="bubble_projectile_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bälle vom UFO]]></string>
+	<string id="bubble_eye_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bälle von Krumm]]></string>
+	<string id="bubble_magic_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bälle von Icy]]></string>
 	
-	<string id="pickups_caught"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Caught:]]></string>
-	<string id="pickup_paddle_big_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Makes your paddle bigger]]></string>
-	<string id="pickup_score_mult_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[More points for 30 seconds]]></string>
-	<string id="pickup_squidward_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Turns your paddle into a Squidward's clarinet]]></string>
-	<string id="pickup_rainbow_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Blocks are temporarily invincible with rainbow power]]></string>
-	<string id="pickup_wing_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bubbles spawn slower and steam shoots out of your ears]]></string>
-	<string id="pickup_pizza_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Removes 2 blocks]]></string>
-	<string id="pickup_magnet_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Makes bubbles attracted to your paddle]]></string>
-	<string id="pickup_oblina_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Turns your paddle into a Oblina temporarily]]></string>
-	<string id="pickup_catdog_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Turns your paddle into a CatDog temporarily]]></string>
-	<string id="pickup_speed_boots_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Slows down the game]]></string>
-	<string id="pickup_gir_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Gir follows you with an extra paddle]]></string>
-	<string id="pickup_hydrant_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Your paddle shoots a stream of water]]></string>
-	<string id="pickup_bomb_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Removes 2 blocks]]></string>
-	<string id="pickup_paddle_small_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Makes your paddle smaller]]></string>
-	<string id="pickup_ghost_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Makes you see ghost bubbles and you have to block them too!]]></string>
-	<string id="pickup_blueberry_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Splatters blueberry juice on the sreen]]></string>
-	<string id="pickup_jellyfish_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Slows your movement]]></string>
-	<string id="pickup_cactus_juice_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Slows your movement]]></string>
+	<string id="pickups_caught"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Gefangen:]]></string>
+	<string id="pickup_paddle_big_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Macht dein Schild größer]]></string>
+	<string id="pickup_score_mult_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Mehr Punkte für 30 Sekunden]]></string>
+	<string id="pickup_squidward_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Verwandelt dein Schild in die Klarinette von Thaddäus]]></string>
+	<string id="pickup_rainbow_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Blöcke sind kurzzeitig unverwundbar]]></string>
+	<string id="pickup_wing_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bälle werden seltener & Dampf strömt aus deinen Ohren]]></string>
+	<string id="pickup_pizza_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Löscht zwei Blöcke]]></string>
+	<string id="pickup_magnet_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bälle werden von deinem Schild angezogen]]></string>
+	<string id="pickup_oblina_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Dein Schild wird kurzzeitig zu Oblina]]></string>
+	<string id="pickup_catdog_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Dein Schild wird kurzzeitig zu CatDog]]></string>
+	<string id="pickup_speed_boots_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Das Spiel wird langsamer]]></string>
+	<string id="pickup_gir_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Gir hilft dir mit einem Schild]]></string>
+	<string id="pickup_hydrant_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Dein Schild schießt Wasser]]></string>
+	<string id="pickup_bomb_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Löscht zwei Blöcke]]></string>
+	<string id="pickup_paddle_small_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Dein Schild wird kleiner]]></string>
+	<string id="pickup_ghost_desc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Geister-Bälle erscheinen zusätzlich]]></string>
+	<string id="pickup_blueberry_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Blaubeerensaft versperrt dir die Sicht]]></string>
+	<string id="pickup_jellyfish_desc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Du wirst langsamer]]></string>
+	<string id="pickup_cactus_juice_desc"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Du wirst langsamer]]></string>
 	
-	<string id="progress_seen"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[First seen:]]></string>
-	<string id="progress_best"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Best game:]]></string>
-	<string id="progress_level"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[level]]></string>
+	<string id="progress_seen"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Zuerst gesehen:]]></string>
+	<string id="progress_best"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bestes Spiel:]]></string>
+	<string id="progress_level"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level]]></string>
 	<string id="progress_in_world"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[in]]></string>
-	<string id="progress_with_char"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[with]]></string>
-	<string id="progress_new"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[NEW!]]></string>
+	<string id="progress_with_char"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[mit]]></string>
+	<string id="progress_new"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[NEU!]]></string>
 	
-	<string id="progress_char_spongebob"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Spongebob Squarepants]]></string>
+	<string id="progress_char_spongebob"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Spongebob Schwammkopf]]></string>
 	<string id="progress_char_timmy"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Timmy Turner]]></string>
 	<string id="progress_char_bloom"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bloom]]></string>
-	<string id="progress_char_sanjay"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Sanjay and Craig]]></string>
+	<string id="progress_char_sanjay"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Sanjay & Craig]]></string>
 	<string id="progress_char_leo"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Leo]]></string>
 	<string id="progress_char_mikey"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Mikey]]></string>
 	<string id="progress_char_donnie"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Don]]></string>
@@ -160,215 +160,215 @@
 	<string id="progress_char_zim_ufo"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Zim]]></string>
 	
 	<string id="progress_world_sb"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Bikini Bottom]]></string>
-	<string id="progress_world_fop"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Fairy World]]></string>
+	<string id="progress_world_fop"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[der Welt der Feen]]></string>
 	<string id="progress_world_winx"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Alfea]]></string>
-	<string id="progress_world_snc"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[the Frycade]]></string>
-	<string id="progress_world_tmnt"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[the Sewers]]></string>
-	<string id="progress_world_troll"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[the Hardest Level Ever]]></string>
+	<string id="progress_world_snc"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[der Spielhölle]]></string>
+	<string id="progress_world_tmnt"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[dem Kanal]]></string>
+	<string id="progress_world_troll"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[im hammerschweren Level]]></string>
 	
 	<string id="show"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Show: ]]></string>
-	<string id="show_sb"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Spongebob Squarepants]]></string>
+	<string id="show_sb"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Spongebob Schwammkopf]]></string>
 	<string id="show_tmnt"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Teenage Mutant Ninja Turtles]]></string>
-	<string id="show_fop"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[The Fairly OddParents]]></string>
+	<string id="show_fop"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Cosmo & Wanda]]></string>
 	<string id="show_rugrats"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Rugrats]]></string>
 	<string id="show_catdog"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[CatDog]]></string>
-	<string id="show_monsters"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Aaahh!!! Real Monsters]]></string>
-	<string id="show_rs"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[The Ren & Stimpy Show]]></string>
+	<string id="show_monsters"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Aaahh!!! Monster]]></string>
+	<string id="show_rs"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Ren & Stimpy]]></string>
 	<string id="show_winx"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Winx Club]]></string>
 	<string id="show_zim"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Invader Zim]]></string>
-	<string id="show_snc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Sanjay and Craig]]></string>
+	<string id="show_snc"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Sanjay & Craig]]></string>
 	
-	<string id="char_unused"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[You haven't played a game with this character yet!]]></string>
-	<string id="world_unused"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[You haven't played a game in this world yet!]]></string>
+	<string id="char_unused"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Du hast das Spiel noch nicht mit dieser Figur gespielt!]]></string>
+	<string id="world_unused"			fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Dieses Level hast du noch nicht gespielt!]]></string>
 	<!--Gameplay-->
-	<string id="wave"					fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Wave]]></string>
-	<string id="score"					fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Score]]></string>
-	<string id="lives"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Lives]]></string>
-	<string id="points"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Points:]]></string>
+	<string id="wave"					fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Welle]]></string>
+	<string id="score"					fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Ergebnis]]></string>
+	<string id="lives"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Leben]]></string>
+	<string id="points"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Punkte:]]></string>
 	
-	<string id="sb_wave_1"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Catch!]]></string>
-	<string id="sb_wave_2"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Not bad.]]></string>
-	<string id="sb_wave_3"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Try some Curve Balls!]]></string>
-	<string id="sb_wave_4"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[No fooling you, huh?]]></string>
-	<string id="sb_wave_5"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Who lives in a pineapple...]]></string>
-	<string id="sb_wave_6"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Under the sea?]]></string>
-	<string id="sb_wave_7"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[SPONGEBOB!]]></string>
-	<string id="sb_wave_8"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[SQUAREPANTS!]]></string>
-	<string id="sb_wave_9"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Only 2 This Time!]]></string>
-	<string id="sb_wave_10"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Not as easy as it sounds LOL.]]></string>
-	<string id="sb_wave_11"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Let's sing!]]></string>
-	<string id="sb_wave_12"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Or Don't. Fine.]]></string>
-	<string id="sb_wave_13"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Try 30 Bubbles!]]></string>
-	<string id="sb_wave_14"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[JK that was only 20]]></string>	
-	<string id="sb_wave_15"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[How long can you keep this up?]]></string>
-	<string id="sb_wave_16"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[There are only 20 waves you know.]]></string>
-	<string id="sb_wave_17"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Here's an easy one.]]></string>
-	<string id="sb_wave_18"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You're so close!]]></string>
-	<string id="sb_wave_19"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Don't choke...]]></string>
-	<string id="sb_wave_20"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Okay 30 Bubbles for real. GL.]]></string>	
+	<string id="sb_wave_1"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Bitte jetzt fangen!]]></string>
+	<string id="sb_wave_2"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Nicht schlecht, Herr Specht!]]></string>
+	<string id="sb_wave_3"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Versuche einen anderen Winkel!]]></string>
+	<string id="sb_wave_4"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Profi, oder?]]></string>
+	<string id="sb_wave_5"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Wer wohnt in einer Ananas ...]]></string>
+	<string id="sb_wave_6"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[...ganz tief im Meer?]]></string>
+	<string id="sb_wave_7"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[SPONGEBOB!]]></string>
+	<string id="sb_wave_8"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[SCHWAMMKOPF!]]></string>
+	<string id="sb_wave_9"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Jetzt zwei!]]></string>
+	<string id="sb_wave_10"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Gar nicht so einfach!]]></string>
+	<string id="sb_wave_11"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Los! Bitte jetzt singen!]]></string>
+	<string id="sb_wave_12"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Oder in die Hände klatschen!]]></string>
+	<string id="sb_wave_13"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Schaffst du 30 Wellen?]]></string>
+	<string id="sb_wave_14"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Oder waren es 20?]]></string>	
+	<string id="sb_wave_15"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Wie lange hälst du durch?]]></string>
+	<string id="sb_wave_16"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Okay, es gibt nur 20 Wellen.]]></string>
+	<string id="sb_wave_17"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Hier mal ein wenig einfacher.]]></string>
+	<string id="sb_wave_18"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du bist so nah am Ziel!]]></string>
+	<string id="sb_wave_19"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Nicht nervös werden...]]></string>
+	<string id="sb_wave_20"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[20 oder 30 Wellen? Was denkst du?]]></string>	
 	
-	<string id="fop_wave_1"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You're still here?]]></string>
-	<string id="fop_wave_2"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[That's odd...]]></string>
-	<string id="fop_wave_3"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[What would your parents say?]]></string>
-	<string id="fop_wave_4"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Playing games all day?]]></string>
-	<string id="fop_wave_5"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[I bet you could be cleaning your room!]]></string>
-	<string id="fop_wave_6"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Or doing your homework.]]></string>
-	<string id="fop_wave_7"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Here, try some Fairy Balls!]]></string>
-	<string id="fop_wave_8"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[flies like a butterfly...]]></string>
-	<string id="fop_wave_9"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Stings like a fairy!]]></string>
-	<string id="fop_wave_10"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You're pretty tough.]]></string>	
-	<string id="fop_wave_11"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Think you could do that again?]]></string>	
-	<string id="fop_wave_12"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Let's see!]]></string>
-	<string id="fop_wave_13"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Ack, had something in my eye. Again!]]></string>
-	<string id="fop_wave_14"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Whoops, all out of Fairy Balls...]]></string>	
-	<string id="fop_wave_15"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Just kidding!]]></string>
-	<string id="fop_wave_16"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Have some Anti Fairy Balls!]]></string>
-	<string id="fop_wave_17"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Rainbows are beautiful...]]></string>
-	<string id="fop_wave_18"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Is that a triple rainbow? OMG]]></string>
-	<string id="fop_wave_19"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[All the way across the sky...]]></string>	
-	<string id="fop_wave_20"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Here goes! Take this!]]></string>	
+	<string id="fop_wave_1"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du bist immer noch hier?]]></string>
+	<string id="fop_wave_2"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Seltsam...]]></string>
+	<string id="fop_wave_3"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Was sagen deine Eltern dazu?]]></string>
+	<string id="fop_wave_4"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Tagesbeschäftigung?]]></string>
+	<string id="fop_wave_5"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Musst du nicht dein Zimmer aufräumen?]]></string>
+	<string id="fop_wave_6"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Oder Hausaufgaben?]]></string>
+	<string id="fop_wave_7"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Bock auf ein paar Feen-Bälle?]]></string>
+	<string id="fop_wave_8"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Wie ein Schmetterling...]]></string>
+	<string id="fop_wave_9"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Durchhalten!]]></string>
+	<string id="fop_wave_10"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Unglaublich.]]></string>	
+	<string id="fop_wave_11"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Schaffst du das nochmal?]]></string>	
+	<string id="fop_wave_12"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Zeig' was du kannst!]]></string>
+	<string id="fop_wave_13"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Jetzt habe ich gerade nicht hingeguckt!]]></string>
+	<string id="fop_wave_14"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Ups, keine Feen-Bälle mehr...]]></string>	
+	<string id="fop_wave_15"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Nur Spaß!]]></string>
+	<string id="fop_wave_16"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Wie sieht's damit aus?]]></string>
+	<string id="fop_wave_17"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Regenbögen sind toll...]]></string>
+	<string id="fop_wave_18"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Da kommt man richtig ins Träumen.]]></string>
+	<string id="fop_wave_19"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Tun die Finger weh?]]></string>	
+	<string id="fop_wave_20"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Pass' auf! Nimm' das!]]></string>	
 	
-	<string id="snc_wave_1"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Yo dude!]]></string>
-	<string id="snc_wave_2"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Sweet game you got here.]]></string>
-	<string id="snc_wave_3"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Think you can beat it?]]></string>
-	<string id="snc_wave_4"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Nice moves!]]></string>
-	<string id="snc_wave_5"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You're like an arcade pro.]]></string>
-	<string id="snc_wave_6"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Too bad I got the high score yesterday!]]></string>
-	<string id="snc_wave_7"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[It's cool, don't be mad.]]></string>
-	<string id="snc_wave_8"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[It takes skills to be the master.]]></string>
-	<string id="snc_wave_9"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Practice makes perfect.]]></string>
-	<string id="snc_wave_10"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Hey, here comes Noodman.]]></string>	
-	<string id="snc_wave_11"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Blueberry Balls! Nice!]]></string>	
-	<string id="snc_wave_12"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[L8R Noodman. That was generous.]]></string>
-	<string id="snc_wave_13"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Whoah! More Blueberries!]]></string>
-	<string id="snc_wave_14"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You could make a pie with all those.]]></string>	
-	<string id="snc_wave_15"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Now I'm getting hungry.]]></string>
-	<string id="snc_wave_16"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[I could go for some hot wings!]]></string>
-	<string id="snc_wave_17"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Feel the burn!]]></string>
-	<string id="snc_wave_18"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Almost there! One two!]]></string>
-	<string id="snc_wave_19"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Get those points! Look at that score!]]></string>	
-	<string id="snc_wave_20"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[No way you can beat this!]]></string>
+	<string id="snc_wave_1"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Oh man...]]></string>
+	<string id="snc_wave_2"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du bist nicht zu stoppen.]]></string>
+	<string id="snc_wave_3"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Schaffst du das?]]></string>
+	<string id="snc_wave_4"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Nicht schlecht!]]></string>
+	<string id="snc_wave_5"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du bist ein wahrer Videospieler.]]></string>
+	<string id="snc_wave_6"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Aber ob das zum Highscore reicht?]]></string>
+	<string id="snc_wave_7"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Ich glaube nicht...]]></string>
+	<string id="snc_wave_8"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Dafür brauchst du viel Training!]]></string>
+	<string id="snc_wave_9"				fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Und noch mehr Training.]]></string>
+	<string id="snc_wave_10"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Jetzt kommt Noodman.]]></string>	
+	<string id="snc_wave_11"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Mhh Blauberren. Lecker!]]></string>	
+	<string id="snc_wave_12"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Das war nett.]]></string>
+	<string id="snc_wave_13"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Da kann man fast einen Kuchen backen!]]></string>
+	<string id="snc_wave_14"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Da kriegt man ganz blaue Zähne.]]></string>	
+	<string id="snc_wave_15"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Jetzt habe ich Hunger.]]></string>
+	<string id="snc_wave_16"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Essen oder spielen?]]></string>
+	<string id="snc_wave_17"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du musst es ja wissen!]]></string>
+	<string id="snc_wave_18"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Noch zwei Wellen!]]></string>
+	<string id="snc_wave_19"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Deine Punkte steigen!]]></string>	
+	<string id="snc_wave_20"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du bist verrückt!]]></string>
 	
-	<string id="winx_wave_1"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Heads up!]]></string>
-	<string id="winx_wave_2"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[School is in session!]]></string>
-	<string id="winx_wave_3"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[As in you're going to get schooled.]]></string>
-	<string id="winx_wave_4"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You're pretty good at this.]]></string>
-	<string id="winx_wave_5"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[For a beginner!]]></string>
-	<string id="winx_wave_6"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Here's an advanced lesson.]]></string>
-	<string id="winx_wave_7"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You passed the quiz! You win.]]></string>
-	<string id="winx_wave_8"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Just kidding!]]></string>
-	<string id="winx_wave_9"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Take care of these for me.]]></string>
-	<string id="winx_wave_10"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[I'll be getting a makeover.]]></string>	
-	<string id="winx_wave_11"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You're still here?]]></string>	
-	<string id="winx_wave_12"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[I'm almost impressed!]]></string>
-	<string id="winx_wave_13"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[The real test is about to begin.]]></string>
-	<string id="winx_wave_14"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Did you study?]]></string>	
-	<string id="winx_wave_15"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Hey! Don't drop the Trix Balls.]]></string>
-	<string id="winx_wave_16"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[They get pretty mad.]]></string>
-	<string id="winx_wave_17"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Almost there! Just 25 waves to go.]]></string>
-	<string id="winx_wave_18"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[JK! LOL you're great.]]></string>
-	<string id="winx_wave_19"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Hold steady!]]></string>	
-	<string id="winx_wave_20"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Final exam! I know you can do it!]]></string>
+	<string id="winx_wave_1"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Neue Runde!]]></string>
+	<string id="winx_wave_2"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Gibt es das als Schulfach?]]></string>
+	<string id="winx_wave_3"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Machst du darin deinen Abschluss?]]></string>
+	<string id="winx_wave_4"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du bist nicht schlecht...]]></string>
+	<string id="winx_wave_5"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[...für einen Anfänger!]]></string>
+	<string id="winx_wave_6"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Jetzt mal etwas Fortgeschrittenes.]]></string>
+	<string id="winx_wave_7"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Das war Note 1.]]></string>
+	<string id="winx_wave_8"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Ich bin ein wenig stolz!]]></string>
+	<string id="winx_wave_9"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Jetzt aber aufpassen!]]></string>
+	<string id="winx_wave_10"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Konzentration!]]></string>	
+	<string id="winx_wave_11"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du bist noch da?]]></string>	
+	<string id="winx_wave_12"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Wahnsinn!]]></string>
+	<string id="winx_wave_13"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Dann fangen wir jetzt mal richtig an.]]></string>
+	<string id="winx_wave_14"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Hast du trainiert?]]></string>	
+	<string id="winx_wave_15"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Hey! Jetzt nicht schlapp machen.]]></string>
+	<string id="winx_wave_16"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Und niemanden verärgern.]]></string>
+	<string id="winx_wave_17"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Jetzt nur noch 25 Wellen!]]></string>
+	<string id="winx_wave_18"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Nee, nur ein Witz. Noch 2.]]></string>
+	<string id="winx_wave_19"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Achtung!]]></string>	
+	<string id="winx_wave_20"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Jetzt kommt die Abschlussprüfung!]]></string>
 	
-	<string id="tmnt_wave_1"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Ready? Set? Go!]]></string>
-	<string id="tmnt_wave_2"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Welcome to my dojo.]]></string>
-	<string id="tmnt_wave_3"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Or is it a sewer? IDK.]]></string>
-	<string id="tmnt_wave_4"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Smells like a winner to me!]]></string>
-	<string id="tmnt_wave_5"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Use your ninja skills!]]></string>
-	<string id="tmnt_wave_6"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Ninjitsu! Karate chop!]]></string>
-	<string id="tmnt_wave_7"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Gnarly moves dude.]]></string>
-	<string id="tmnt_wave_8"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You're getting to be good at this.]]></string>
-	<string id="tmnt_wave_9"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[The student becomes the master.]]></string>
-	<string id="tmnt_wave_10"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Yea right! Mouser Balls!]]></string>	
-	<string id="tmnt_wave_11"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Rise, my mechanical minons!]]></string>	
-	<string id="tmnt_wave_12"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Give 'em shell!]]></string>
-	<string id="tmnt_wave_13"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Well done, my student.]]></string>
-	<string id="tmnt_wave_14"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You've earned a pizza break.]]></string>	
-	<string id="tmnt_wave_15"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Now, for your final lesson.]]></string>
-	<string id="tmnt_wave_16"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Prepare to show your true ninjitsu.]]></string>
-	<string id="tmnt_wave_17"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You better have skills!]]></string>
-	<string id="tmnt_wave_18"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[No holding back now.]]></string>
-	<string id="tmnt_wave_19"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Think you can face the master?]]></string>	
-	<string id="tmnt_wave_20"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Your final chance! Show me your moves!]]></string>
+	<string id="tmnt_wave_1"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Achtung!]]></string>
+	<string id="tmnt_wave_2"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Fertig!]]></string>
+	<string id="tmnt_wave_3"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Los!]]></string>
+	<string id="tmnt_wave_4"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Hier riecht's gut!]]></string>
+	<string id="tmnt_wave_5"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Benutze deine Ninja-Skills!]]></string>
+	<string id="tmnt_wave_6"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Karate fetzt!]]></string>
+	<string id="tmnt_wave_7"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Guter Angriff.]]></string>
+	<string id="tmnt_wave_8"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Langsam wird's was!]]></string>
+	<string id="tmnt_wave_9"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Der Schüler wird zum Lehrer!]]></string>
+	<string id="tmnt_wave_10"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Wie ist das Wetter draußen?]]></string>	
+	<string id="tmnt_wave_11"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Oh diese Mouser...]]></string>	
+	<string id="tmnt_wave_12"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Panzer-Power!]]></string>
+	<string id="tmnt_wave_13"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Gut gemacht!]]></string>
+	<string id="tmnt_wave_14"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Zeit für eine Pizza!]]></string>	
+	<string id="tmnt_wave_15"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Hungrig spielt's sich schlecht!]]></string>
+	<string id="tmnt_wave_16"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Jetzt musst du alles geben!]]></string>
+	<string id="tmnt_wave_17"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Das kannst du besser!]]></string>
+	<string id="tmnt_wave_18"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Noch besser!]]></string>
+	<string id="tmnt_wave_19"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Bist du bereit für den Meister?]]></string>	
+	<string id="tmnt_wave_20"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Das ist deine letzte Möglichkeit!]]></string>
 	
-	<string id="troll_wave_1"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Whoah...what is this place?]]></string>
-	<string id="troll_wave_2"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[So many colors!]]></string>
-	<string id="troll_wave_3"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You discovered the…]]></string>
-	<string id="troll_wave_4"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[HARDEST…]]></string>
-	<string id="troll_wave_5"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[LEVEL…]]></string>
-	<string id="troll_wave_6"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[EVER!!!]]></string>
-	<string id="troll_wave_7"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Feeling nervous?]]></string>
-	<string id="troll_wave_8"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Don’t be! This is just a game.]]></string>
-	<string id="troll_wave_9"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[This is going to be fun!]]></string>
-	<string id="troll_wave_10"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Can’t see straight?]]></string>	
-	<string id="troll_wave_11"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Just try focusing on the…]]></string>	
-	<string id="troll_wave_12"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Pay attention to the…]]></string>
-	<string id="troll_wave_13"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Oh never mind. You can do it!]]></string>
-	<string id="troll_wave_14"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[I’ve never gotten this far TBH.]]></string>	
-	<string id="troll_wave_15"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You’re gonna be HGE History!]]></string>
-	<string id="troll_wave_16"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Seriously though.]]></string>
-	<string id="troll_wave_17"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Nobody ever even finds this place!]]></string>
-	<string id="troll_wave_18"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You are THE BEST.]]></string>
-	<string id="troll_wave_19"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You’re almost there!]]></string>	
-	<string id="troll_wave_20"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[WOOT! One more wave and YOU WIN!!!]]></string>
+	<string id="troll_wave_1"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Hui, wo sind wir denn hier?]]></string>
+	<string id="troll_wave_2"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[So viele Farben...]]></string>
+	<string id="troll_wave_3"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du hast...]]></string>
+	<string id="troll_wave_4"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[HAMMERSCHWERE...]]></string>
+	<string id="troll_wave_5"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[LEVEL...]]></string>
+	<string id="troll_wave_6"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[ENTDECKT!!!]]></string>
+	<string id="troll_wave_7"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Bist du nervös?]]></string>
+	<string id="troll_wave_8"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Keine Angst, das ist nur ein Spiel?]]></string>
+	<string id="troll_wave_9"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Das wird ein Spaß!]]></string>
+	<string id="troll_wave_10"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Wahnsinn?]]></string>	
+	<string id="troll_wave_11"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Konzentration halten!]]></string>	
+	<string id="troll_wave_12"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Nicht müde werden...]]></string>
+	<string id="troll_wave_13"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du schaffst es!]]></string>
+	<string id="troll_wave_14"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Ich bin nie so weit gekommen.]]></string>	
+	<string id="troll_wave_15"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Du schreibst Geschichte!]]></string>
+	<string id="troll_wave_16"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Echt Wahnsinn!]]></string>
+	<string id="troll_wave_17"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Mir wird ganz schwindelig!]]></string>
+	<string id="troll_wave_18"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Ich glaube du bist...]]></string>
+	<string id="troll_wave_19"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[der Beste!]]></string>	
+	<string id="troll_wave_20"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[NUR NOCH EIN WELLE! DU HELD!]]></string>
 	<!-- Achievements -->
-	<string id="achievements_header"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[ACHIEVEMENTS]]></string>
-	<string id="achievement_unlocked"			fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[ACHIEVEMENT UNLOCKED]]></string>
-	<string id="achievement_name_default"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Achievement Name]]></string>
-	<string id="achievement_desc_default"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Achievement Description]]></string>
-	<string id="achievement_name_lose10"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Noob Award]]></string>
-	<string id="achievement_desc_lose10"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Fail a lot of times!]]></string>
-	<string id="achievement_name_lose1"			fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Not Even Trying]]></string>
-	<string id="achievement_desc_lose1"			fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Lose on wave 1 -_-]]></string>
-	<string id="achievement_name_deflect100"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Just Getting Started]]></string>
-	<string id="achievement_desc_deflect100"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Deflect 100 regular bubbles]]></string>	
-	<string id="achievement_name_score"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[High Score]]></string>
-	<string id="achievement_desc_score"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Get 1000 points in a game]]></string>	
-	<string id="achievement_name_world"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[World Explorer]]></string>
-	<string id="achievement_desc_world"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Play a game in every world]]></string>	
-	<string id="achievement_name_bubbles"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Bubble Master]]></string>
-	<string id="achievement_desc_bubbles"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Unlock all the bubbles]]></string>
-	<string id="achievement_name_level10"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Staying Alive]]></string>
-	<string id="achievement_desc_level10"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Get to level 10 in any world]]></string>
-	<string id="achievement_name_level20"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[So Close Yet So Far]]></string>
-	<string id="achievement_desc_level20"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Lose on level 20]]></string>
-	<string id="achievement_name_rainbow"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Double Rainbow]]></string>
-	<string id="achievement_desc_rainbow"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Catch 2 rainbow pickups]]></string>
-	<string id="achievement_name_magnets"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[How Do They Work?]]></string>
-	<string id="achievement_desc_magnets"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Catch 5 magnet pickups]]></string>
-	<string id="achievement_name_percent10"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Beginner]]></string>
-	<string id="achievement_desc_percent10"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Unlock 10% of the game]]></string>
-	<string id="achievement_name_percent50"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Almost Cool]]></string>
-	<string id="achievement_desc_percent50"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Unlock 50% of the game]]></string>
-	<string id="achievement_name_percent100"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Too Much Free Time!]]></string>
-	<string id="achievement_desc_percent100"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Unlock 100% of the game]]></string>
-	<string id="achievement_name_char"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[The Dream Team]]></string>
-	<string id="achievement_desc_char"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Unlock all playable characters]]></string>
+	<string id="achievements_header"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[ERFOLGE]]></string>
+	<string id="achievement_unlocked"			fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[FREIGESCHALTEN:]]></string>
+	<string id="achievement_name_default"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Name]]></string>
+	<string id="achievement_desc_default"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Beschreibung]]></string>
+	<string id="achievement_name_lose10"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Anfängerpreis]]></string>
+	<string id="achievement_desc_lose10"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Versage sehr oft!]]></string>
+	<string id="achievement_name_lose1"			fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Topspieler]]></string>
+	<string id="achievement_desc_lose1"			fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Verliere in Welle 1]]></string>
+	<string id="achievement_name_deflect100"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Erstmal anfangen]]></string>
+	<string id="achievement_desc_deflect100"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Wehre 100 Bälle ab]]></string>	
+	<string id="achievement_name_score"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Highscore]]></string>
+	<string id="achievement_desc_score"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Schaffe 1000 Punkte]]></string>	
+	<string id="achievement_name_world"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Weltenwandler]]></string>
+	<string id="achievement_desc_world"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Spiele in jeder Welt]]></string>	
+	<string id="achievement_name_bubbles"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Balljunge]]></string>
+	<string id="achievement_desc_bubbles"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Schalte alle Bälle frei]]></string>
+	<string id="achievement_name_level10"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Lebenskünstler]]></string>
+	<string id="achievement_desc_level10"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Erreiche überall Welle 10]]></string>
+	<string id="achievement_name_level20"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[So knapp!]]></string>
+	<string id="achievement_desc_level20"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Verliere in Welle 20]]></string>
+	<string id="achievement_name_rainbow"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Doppelter Regenbogen]]></string>
+	<string id="achievement_desc_rainbow"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Fange 2 Regenbogen-Objekte]]></string>
+	<string id="achievement_name_magnets"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Wie geht das?]]></string>
+	<string id="achievement_desc_magnets"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Fange 5 Magneten]]></string>
+	<string id="achievement_name_percent10"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Anfänger]]></string>
+	<string id="achievement_desc_percent10"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Schalte 10% des Spiels frei]]></string>
+	<string id="achievement_name_percent50"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Richtig cool]]></string>
+	<string id="achievement_desc_percent50"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Schalte 50% des Spiels frei]]></string>
+	<string id="achievement_name_percent100"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Zu viel Freizeit!]]></string>
+	<string id="achievement_desc_percent100"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Schalte 100% im Spiel frei]]></string>
+	<string id="achievement_name_char"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Traumteam]]></string>
+	<string id="achievement_desc_char"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Schalte alle Figuren frei]]></string>
 	
-	<string id="achievement_name_world_fop"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Fairy World]]></string>
-	<string id="achievement_desc_world_fop"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Get to level 5 in Bikini Bottom]]></string>
-	<string id="achievement_name_world_tmnt"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[The Sewers]]></string>
-	<string id="achievement_desc_world_tmnt"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Get to level 5 in Alfea]]></string>
-	<string id="achievement_name_world_winx"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Alfea]]></string>
-	<string id="achievement_desc_world_winx"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Get to level 5 in the Frycade]]></string>
-	<string id="achievement_name_world_snc"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[The Frycade]]></string>
-	<string id="achievement_desc_world_snc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Get to level 5 in Fairy World]]></string>
-	<string id="achievement_name_world_troll"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Super Secret World]]></string>
-	<string id="achievement_desc_world_troll"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Get to level 1 in all other worlds]]></string>
-	<string id="achievement_name_char_timmy"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Timmy Turner]]></string>
-	<string id="achievement_desc_char_timmy"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Get 100 points in a game with Spongebob Squarepants]]></string>
-	<string id="achievement_name_char_bloom"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Princess Bloom]]></string>
-	<string id="achievement_desc_char_bloom"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Unlock 5 characters]]></string>
-	<string id="achievement_name_char_sanjay"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Sanjay and Craig]]></string>
-	<string id="achievement_desc_char_sanjay"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Get to level 11 in any world with any character]]></string>
-	<string id="achievement_name_char_leo"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Leonardo]]></string>
-	<string id="achievement_desc_char_leo"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Get 1000 points in a game with any turtle]]></string>
-	<string id="achievement_name_char_mikey"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Michelangelo]]></string>
-	<string id="achievement_desc_char_mikey"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Catch 10 pizza pickups]]></string>
-	<string id="achievement_name_char_donnie"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Donatello]]></string>
-	<string id="achievement_desc_char_donnie"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Unlock 10 bubbles]]></string>
-	<string id="achievement_name_char_raph"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Raphael]]></string>
-	<string id="achievement_desc_char_raph"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Unlock 3 worlds]]></string>
+	<string id="achievement_name_world_fop"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Welt der Feen]]></string>
+	<string id="achievement_desc_world_fop"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Erreiche Welle 5 in Bikini Bottom]]></string>
+	<string id="achievement_name_world_tmnt"	fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Der Kanal]]></string>
+	<string id="achievement_desc_world_tmnt"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Erreiche Welle 5 in Alfea]]></string>
+	<string id="achievement_name_world_winx"	fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Alfea]]></string>
+	<string id="achievement_desc_world_winx"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Erreiche Welle 5 in der Spielhölle]]></string>
+	<string id="achievement_name_world_snc"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Die Spielhölle]]></string>
+	<string id="achievement_desc_world_snc"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Erreiche Welle 5 in der Welt der Feen]]></string>
+	<string id="achievement_name_world_troll"	fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Super geheimes Level]]></string>
+	<string id="achievement_desc_world_troll"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Erreiche überall Welle 1]]></string>
+	<string id="achievement_name_char_timmy"	fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Timmy Turner]]></string>
+	<string id="achievement_desc_char_timmy"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Erreiche 100 Punkte mit SpongeBob]]></string>
+	<string id="achievement_name_char_bloom"	fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Prinzessin Bloom]]></string>
+	<string id="achievement_desc_char_bloom"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Schalte 5 Figuren frei]]></string>
+	<string id="achievement_name_char_sanjay"	fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Sanjay & Craig]]></string>
+	<string id="achievement_desc_char_sanjay"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Erreiche Welle 11 mit einer Figur]]></string>
+	<string id="achievement_name_char_leo"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Leonardo]]></string>
+	<string id="achievement_desc_char_leo"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Erreiche 1000 Punkte mit einem Turtle]]></string>
+	<string id="achievement_name_char_mikey"	fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Michelangelo]]></string>
+	<string id="achievement_desc_char_mikey"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Fange 10 Pizza-Objekte]]></string>
+	<string id="achievement_name_char_donnie"	fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Donatello]]></string>
+	<string id="achievement_desc_char_donnie"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Schalte 10 Bälle frei]]></string>
+	<string id="achievement_name_char_raph"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Raphael]]></string>
+	<string id="achievement_desc_char_raph"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Schalte 3 Welten frei]]></string>
 	<!--Leaderboard-->
 	<string id="you"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You:]]></string>
 	<string id="top"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Top]]></string>	
