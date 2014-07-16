@@ -3,12 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Nickelodeon</title>
-		<script src="/nick-assets/iosReporting/ios_game_coda.js"><!-- empty --></script> <script src="/nick-assets/iosReporting/coda_config.js"><!-- empty --></script>
-	    <script type="text/javascript" src="http://www.nick.com/nick-assets/games/jsembed/jsembed.js"></script>
+		<script src="/nick-assets/iosReporting/ios_game_coda.js"><!-- empty --></script> 
+		<script src="/nick-assets/iosReporting/coda_config.js"><!-- empty --></script>
+	  <script type="text/javascript" src="http://www.nick.com/nick-assets/games/jsembed/jsembed.js"></script>
 		<script type="text/javascript" >			
+      // Get folder name for base 
+      var x = window.location.pathname;
+      var foldername = x.substring(0, x.indexOf('index.html'));
+
 			// Parameters configure jsembed itself.
 			var params = {
-				base: "http://bcgames.mtvnn.com/haxe/de/spongebob/sb_nickelodeonshardestgameever_german/BUILD/html5/index.html", // base url of all content. Defaults ""
+				base: foldername, // base url of all content. Defaults ""
 			 	api: "flambe", // supported custom apis are defined in jsembed. Defaults none.
 			 	autoscale: "true", // update window.canvasScale on window resize? Defaults true.
 			 	//libs: ["flambe.js"] // array of libs to embed before trying to launch app. Defaults []
