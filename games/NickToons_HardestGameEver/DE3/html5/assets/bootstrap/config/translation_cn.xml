@@ -11,16 +11,16 @@
 
 <strings defaultFont="Basic">
 	<!--Preloader-->
-	<string id="loading"				fontName="bolt_bold"	fontScale=".25"	offsetX="0" offsetY="0"><![CDATA[LADEVORGANG]]></string>
+	<string id="loading"				fontName="Basic"	fontScale=".25"	offsetX="0" offsetY="0"><![CDATA[LADEVORGANG]]></string>
 	<!--Basics-->
-	<string id="title"					fontName="bolt_bold"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[HARDEST GAME EVER]]></string>
-	<string id="tap_anywhere"			fontName="bolt_bold"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[TAP ANYWHERE TO PLAY]]></string>
-	<string id="click_anywhere"			fontName="bolt_bold"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[KLICKE IRGENDWO HIN]]></string>
+	<string id="title"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[HARDEST GAME EVER]]></string>
+	<string id="tap_anywhere"			fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[TAP ANYWHERE TO PLAY]]></string>
+	<string id="click_anywhere"			fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[KLICKE IRGENDWO HIN]]></string>
 	<string id="tap_anywhere_again"		fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play Again]]></string>
 	<string id="click_anywhere_again"	fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play Again]]></string>	
 	<string id="tap_anywhere_skip"		fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Skip]]></string>
 	<string id="click_anywhere_skip"	fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Skip]]></string>	
-	<string id="play"					fontName="bolt_bold"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Play]]></string>
+	<string id="play"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Play]]></string>
 	<string id="play_again"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Try Again]]></string>	
 	<string id="how_to_play"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
 	<string id="next"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Next]]></string>
