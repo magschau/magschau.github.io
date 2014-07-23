@@ -1,0 +1,89 @@
+{
+	"Name": "Weenie Hut",
+	"packFolderPrefix":"",
+	"BackgroundSprite":"background",
+	"OrderWindowSprite":"orderWindow",
+	"BackgroundTrack":"pop_08_CHA_sparklers_L1",
+	
+	"StartingClock":90,
+	"StartingOrders":2,	
+	"MinToppingsPerBurger":1,
+	"ToppingsRange":5,	
+	"ToppingsRamp":4,
+	"MaxPattiesPerOrder":2,
+	"MaxPattyRamp":11,
+	"MaxPattyCount":3,
+	"Modifiers": [
+		{"PatienceBase":0},
+		{"PatienceRange":10}		
+	],
+	"Ingredients":[
+		{"visible":false, "category":"Topping","name":"Bottom Bun", 	
+			"sprite":"wh_botbun", "grabSprite":"wh_botbun", "dropSprite":"wh_botbun", "microSprite":"wh_botBunMicro",							
+			"sfxGrab":"Bun_Grab", "sfxDrop":"Bun_Place",
+			"x":60,	"y":220, "h":0, "w":0},
+		{"category":"Topping","name":"Top Bun", 							
+			"sprite":"wh_topbun", "grabSprite":"wh_topbun", "dropSprite":"wh_topbun", "microSprite":"wh_topBunMicro",							
+			"sfxGrab":"Bun_Grab", "sfxDrop":"Bun_Place",
+			"x":96,"y":312, "h":0, "w":0},
+		{"category":"Burger", "name":"Meat", 	
+			"sprite":"wh_meatRaw", "grabSprite":"wh_meatRaw", "dropSprite":"wh_meatRaw", "microSprite":"wh_meatMicro",							
+			 "halfCookedSprite":"wh_meatHalf","cookedSprite":"wh_meatDone","burntSprite":"wh_meatBurnt", "flipChain":"WH_Flip",
+			 "sfxGrab":"Crunchy_Grab", "sfxDrop":"Frying",
+			 "x":226,"y":488, "h":0, "w":0},			
+			
+		{"category":"Topping","name":"Onion", 	
+			"sprite":"wh_onion", "grabSprite":"wh_onionGrab", "dropSprite":"wh_onionDrop", "microSprite":"wh_onionMicro",					
+			"sfxGrab":"Crunchy_Grab", "sfxDrop":"Crunchy_Place",
+						"x":48,	"y":413, "h":0, "w":0},
+		
+		{"category":"Topping","name":"Ketchup", 	
+			"sprite":"wh_ketchup", "grabSprite":"wh_ketchupGrab", "dropSprite":"wh_ketchupDrop", "microSprite":"wh_ketchupMicro",			
+			"sfxGrab":"", "sfxDrop":"Sauce",
+			"x":200,"y":250, "h":0, "w":0},
+			
+		{"category":"Topping","name":"Mustard", 	
+			"sprite":"wh_mustard",	"grabSprite":"wh_mustardGrab", "dropSprite":"wh_mustardDrop", "microSprite":"wh_mustardMicro",		
+			"sfxGrab":"", "sfxDrop":"Sauce",
+			"x":290,"y":270, "h":0, "w":0},
+		
+		{"category":"Topping","name":"Relish", 	
+			"sprite":"wh_relish", "grabSprite":"wh_relishGrab",  "dropSprite":"wh_relishDrop", "microSprite":"wh_relishMicro",	
+			"sfxGrab":"Squishy_Grab", "sfxDrop":"Squishy_Place",
+"x":222,"y":400, "h":58, "w":0},
+			
+		{"category":"Topping", "name":"Kraut", 	
+			"sprite":"wh_kraut", "grabSprite":"wh_krautGrab", "dropSprite":"wh_krautDrop", "microSprite":"wh_krautMicro",				
+			"sfxGrab":"Squishy_Grab", "sfxDrop":"Squishy_Place",
+			"x":70,"y":500, "h":0, "w":0},
+		
+		
+		{"category":"Topping", "name":"Jalapeno", 	
+			"sprite":"wh_jalo", "grabSprite":"wh_jaloGrab", "dropSprite":"wh_jaloDrop", "microSprite":"wh_jaloMicro",				
+			"sfxGrab":"Crunchy_Grab", "sfxDrop":"Crunchy_Place",
+			"x":111,	"y":364, "h":0, "w":0}		
+	],
+	"ReceiverZones":[
+		
+		{"category":"order", "name": "order tray 1", "sprite":"", 	"x": 376, "y":12, "h": 160, "w": 210},
+		{"category":"order", "name": "order tray 2", "sprite":"", 	"x": 592, "y":12, "h": 160, "w": 200},
+		{"category":"order", "name": "order tray 3", "sprite":"", 	"x": 798, "y":12, "h": 160, "w": 200},
+		
+		{"category":"prep", "name": "prep 3",  		"sprite":"", 	"x": 815, "y":280, "h": 150, "w": 200},
+		{"category":"prep", "name": "prep 2",  		"sprite":"", 	"x": 580, "y":280, "h": 150, "w": 200},	
+		{"category":"prep", "name": "prep 1",  		"sprite":"", 	"x": 345, "y":280, "h": 150, "w": 200},
+		
+		{"category":"grill", "name": "grill 1", 	"sprite":"", 	"x": 320, "y":465, "h": 146, "w": 190},
+		{"category":"grill", "name": "grill 2", 	"sprite":"", 	"x": 534, "y":465, "h": 146, "w": 190},
+		{"category":"grill", "name": "grill 3", 	"sprite":"", 	"x": 750, "y":465, "h": 146, "w": 190},
+		
+		{"category":"trash", "name": "trash",   	"sprite":"", 	"x": -170, "y":528, "h": 176, "w": 410}	
+
+	],	
+	"Waiters":[
+		{"category":"",	"name":"Waiter1 - blue fish", "basePatience":32, 	"sprite":"wh_waiter1", "grabSprite":"kp_waiter1Over", "dropSprite":"kp_waiter1Done", "transitSprite":"kp_waiter1transit","outSprite":"kp_waiter1Out",		"x":-92,	"y":0, "h":243, "w":208},
+		{"category":"",	"name":"Waiter2 - eel lady", "basePatience":32, 	"sprite":"wh_waiter2", "grabSprite":"kp_waiter2Over", "dropSprite":"kp_waiter2Done", "transitSprite":"kp_waiter2transit","outSprite":"kp_waiter2Out",		"x":-92,	"y":0, "h":243, "w":212},
+		{"category":"", "name":"Waiter3 - fish guy", "basePatience":32, 	"sprite":"wh_waiter3", "grabSprite":"kp_waiter3Over", "dropSprite":"kp_waiter3Done", "transitSprite":"kp_waiter3transit","outSprite":"kp_waiter3Out",		"x":-92,	"y":0, "h":225, "w":222},
+		{"category":"", "name":"Waiter5 - worm guy", "basePatience":32, 	"sprite":"wh_waiter5", "grabSprite":"kp_waiter5Over", "dropSprite":"kp_waiter5Done", "transitSprite":"kp_waiter5transit","outSprite":"kp_waiter5Out",		"x":-92,	"y":0, "h":243, "w":215}
+	]
+}
