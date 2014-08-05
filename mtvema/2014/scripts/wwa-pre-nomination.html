@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wwa pre nomination</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$.when(ajax1(), ajax2()).done(function(a1, a2){
+				buckets = a1[0].buckets;
+				console.log(buckets);
+				console.log(a1[0].name);
+				console.log(a1[0].description);
+				for (i=0; i<buckets.total.length; i++){
+					if (buckets.top[0].title === buckets.total[i].title)
+						console.log(">");
+					console.log(buckets.total[i].title + ": " + buckets.total[i].count);
+				}
+				console.log("===");
+				console.log(a2);
+			});
+		});
+
+		function ajax1() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/ema-wwa/meta.json",
+        dataType: "json"
+	    });
+		}
+
+		function ajax2() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/ema-wwa/meta.json",
+        dataType: "json"
+	    });
+		}
+
+  	</script>
+</head>
+
+<body>
+</body>
+
+</html>
