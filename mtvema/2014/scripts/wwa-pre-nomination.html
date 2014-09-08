@@ -242,6 +242,16 @@
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
+		  ajax27();
+	    });
+		}
+		function ajax27() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/romania-2014ema-prenom/meta.json",
+        async: false,
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
 		  ajax18();
 	    });
 		}
