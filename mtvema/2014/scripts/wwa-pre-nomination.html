@@ -122,6 +122,16 @@
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
+		  ajax25();
+	    });
+		}
+		function ajax25() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/france-2014ema-prenom/meta.json",
+        async: false,
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
 		  ajax8();
 	    });
 		}
@@ -138,6 +148,16 @@
 		function ajax9() {
 	    return $.ajax({
         url: "http://api.massrelevance.com/mtvema/greece-2014ema-prenom/meta.json",
+        async: false,
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax26();
+	    });
+		}
+		function ajax26() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/india-2014ema-prenom/meta.json",
         async: false,
         dataType: "json"
 	    }).done(function(a) {
