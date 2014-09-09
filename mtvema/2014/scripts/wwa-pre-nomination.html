@@ -22,6 +22,7 @@
 	</style>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript">
+		var total;
 		$(document).ready(function () {
 			ajax1();
 		});
@@ -38,11 +39,15 @@
 					trclass = '';
 					title = buckets.total[i].title;
 					count = buckets.total[i].count;
+					total = total + buckets.total[i].count;
 					if (buckets.top.length > 0 && buckets.top[0].title === buckets.total[i].title)
 						trclass = ' class="top"';
 					$("table").append('<tr' + trclass + '><td>' + title + '</td><td>' + count + '</td></tr>');
 				}
 			}
+		}
+		function displayTotal() {
+			$("h1").html("Total: " + total);
 		}
 
 		function ajax0() {
@@ -322,12 +327,14 @@
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
+		  displayTotal();
 	    });
 		}
   </script>
 </head>
 
 <body>
+	<h1></h1>
 	<table></table>
 </body>
 
