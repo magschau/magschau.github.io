@@ -8,32 +8,47 @@
 			font-family:'Open Sans';
 		}
 		table {
-			border-bottom:1px solid #000;
-			width:100%;
-			padding-bottom:20px;
+			width:320px;
+			padding-bottom:40px;
+			display:none;
+		}
+		tr.top {
 		}
 		td {
 			width:50%;
+		}
+		td.headings {
+			text-decoration: underline;
 		}
 		span {
 			font-size:26px;
 			font-weight:bold;
 		}
+		div#loading {
+			font-size:48px;
+		}
 	</style>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript">
 		var total=0;
+		var timestamp=new Date().getTime();
 		$(document).ready(function () {
 			ajax1();
 		});
+		function numberWithCommas(x) 
+		{
+			if ( x % 1 === 0 )
+		    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+		}
 		function displayResult(x) {
 			console.log(x);
 			name = x["name"];
+			name = name.substring(0,name.indexOf("-"));
 			buckets = x["buckets"];
 
 			console.log(name + ": " + buckets.total.length);
 			if ( buckets.total.length > 0 ){
-				$("table").append('<tr><td colspan=2><span>' + name + '</span></td></tr>');
+				$("table").append('<tr><td colspan=2 class=headings><span>' + name + '</span></td></tr>');
 				for (i=0; i<buckets.total.length; i++){
 					console.log(buckets.total[i].title);
 					trclass = '';
@@ -42,18 +57,20 @@
 					total = total + buckets.total[i].count;
 					if (buckets.top.length > 0 && buckets.top[0].title === buckets.total[i].title)
 						trclass = ' class="top"';
-					$("table").append('<tr' + trclass + '><td>' + title + '</td><td>' + count + '</td></tr>');
+					$("table").append('<tr' + trclass + '><td align=left>' + title + '</td><td align=right>' + numberWithCommas(count) + '</td></tr>');
 				}
 			}
 		}
 		function displayTotal() {
-			$("h1").html("Total: " + total);
+			$("h1").html("Total: " + numberWithCommas(total));
+			$("div#loading").hide();
+			$("table").show();
 		}
 
 		function ajax0() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/ema-wwa/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/ema-wwa/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -62,8 +79,8 @@
 		}
 		function ajax1() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/adria-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/adria-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -72,8 +89,8 @@
 		}
 		function ajax2() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/africa-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/africa-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -82,8 +99,8 @@
 		}
 		function ajax3() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/australia-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/australia-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -92,8 +109,8 @@
 		}
 		function ajax4() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/belgium-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/belgium-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -102,8 +119,8 @@
 		}
 		function ajax5() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/canada-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/canada-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -112,8 +129,8 @@
 		}
 		function ajax6() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/denmark-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/denmark-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -122,8 +139,8 @@
 		}
 		function ajax7() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/finland-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/finland-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -132,8 +149,8 @@
 		}
 		function ajax25() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/france-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/france-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -142,8 +159,8 @@
 		}
 		function ajax8() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/germany-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/germany-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -152,8 +169,8 @@
 		}
 		function ajax9() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/greece-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/greece-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -162,8 +179,8 @@
 		}
 		function ajax26() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/india-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/india-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -172,8 +189,8 @@
 		}
 		function ajax10() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/italy-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/italy-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -182,8 +199,8 @@
 		}
 		function ajax11() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/japan-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/japan-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -192,8 +209,8 @@
 		}
 		function ajax12() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/korea-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/korea-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -202,8 +219,8 @@
 		}
 		function ajax13() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/netherlands-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/netherlands-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -212,8 +229,8 @@
 		}
 		function ajax14() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/newzealand-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/newzealand-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -222,8 +239,8 @@
 		}
 		function ajax15() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/norway-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/norway-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -232,8 +249,8 @@
 		}
 		function ajax16() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/poland-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/poland-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -242,8 +259,8 @@
 		}
 		function ajax17() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/portugal-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/portugal-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -252,8 +269,8 @@
 		}
 		function ajax27() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/romania-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/romania-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -262,8 +279,8 @@
 		}
 		function ajax18() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/russia-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/russia-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -272,8 +289,8 @@
 		}
 		function ajax19() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/southeastasia-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/southeastasia-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -282,8 +299,8 @@
 		}
 		function ajax20() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/spain-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/spain-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -292,8 +309,8 @@
 		}
 		function ajax21() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/sweden-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/sweden-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -302,8 +319,8 @@
 		}
 		function ajax22() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/switzerland-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/switzerland-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -312,8 +329,8 @@
 		}
 		function ajax23() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/ukireland-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/ukireland-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -322,8 +339,8 @@
 		}
 		function ajax24() {
 	    return $.ajax({
-        url: "http://api.massrelevance.com/mtvema/usa-2014ema-prenom/meta.json",
-        async: false,
+        url: "http://api.massrelevance.com/mtvema/usa-2014ema-prenom/meta.json?" + timestamp,
+        
         dataType: "json"
 	    }).done(function(a) {
 		  displayResult(a);
@@ -334,6 +351,7 @@
 </head>
 
 <body>
+	<div id="loading">LOADING...<br><img src="http://awesomegifs.com/wp-content/uploads/hover-kitty.gif"></div>
 	<h1></h1>
 	<table></table>
 </body>
