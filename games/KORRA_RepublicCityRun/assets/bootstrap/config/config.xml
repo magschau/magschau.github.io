@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<services>
+		<service type="analytics" enabled="false" id="8399606266515573145" />
+	</services>
+
+	<eula showLink="false" align="tr" offsetx="500" offsety="100" eulaurl="http://mobilefiles.nick.com/eula.htm" privacyurl="http://mobilefiles.nick.com/pp.htm" /> <!--  This is hardcoded to disable on non-Android devices no matter what settings you put in -->
+	
+	<!-- LOCALIZATION -->
+	      
+    <localization>
+    	<region>la</region>
+    </localization>
+
+	<!-- Pack Definitions -->
+	<packs id="main_pack">
+		<pack id="initial_load"/>
+		<pack id="gameplay_audio"/>
+   		<pack id="gameplay_universal">
+	        <flump id="flump_mounts"/>
+	        <flump id="flump_effects"/>
+	        <flump id="flump_enemies"/>
+   		</pack>
+   		<pack id="gameplay_english"/>
+   		<pack id="gameplay_no_audio"/>
+   		<pack id="gameplay_international"/>
+   		<pack id="initial_load_hd"/>
+   		<pack id="gameplay_universal_hd">
+	        <flump id="flump_mounts"/>
+	        <flump id="flump_effects"/>
+	        <flump id="flump_enemies"/>
+   		</pack>
+    </packs>
+	
+    <!-- CHUNKS -->
+    <!-- Define larger bundles of chunks and packs to load -->
+    
+    <chunks>
+    	<!-- EX
+    	<chunk id="chunk">
+			<chunk>load_part_1</chunk>
+			<pack>load_part_2</chunk>
+		</chunk>
+    	-->
+    
+    	<chunk id="initial">
+    		<pack>initial_load</pack>    		
+    	</chunk>
+    	
+    	<chunk id="gameplay">
+    		<pack>gameplay_universal</pack>
+    		<pack>gameplay_audio</pack>
+    		<pack>gameplay_english</pack>    		
+    	</chunk>
+
+    	<chunk id="gameplay_international">
+    	    <pack>gameplay_universal</pack>
+    		<pack>gameplay_audio</pack>
+    		<pack>gameplay_international</pack>
+    	</chunk>
+    	
+    	<chunk id="gameplay_no_audio">
+    		<pack>gameplay_universal</pack>
+    		<pack>gameplay_english</pack>    		
+    	</chunk>
+            	
+    	<chunk id="initial_hd">
+    		<pack>initial_load_hd</pack>    		
+    	</chunk>
+    	
+    	<chunk id="gameplay_hd">
+    		<pack>gameplay_universal_hd</pack>
+    	</chunk>
+        <!-- END OF CHUNKS -->
+    </chunks>
+	
+</config>
