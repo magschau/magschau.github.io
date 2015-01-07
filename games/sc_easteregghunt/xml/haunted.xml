@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<game width="872" height="600" scale="1" orientation="horizontal" debug="false">
+
+    <preloader url="img/bg/loadingscreen.jpg" x="0" y="0" width="872" height="600" name="preloader" >
+        <font fontName="archivo_blackregular" fontSize="40" align="center" color="#ffffff"/>
+    </preloader>
+
+    <menu sound="audio/snc_noodman.mp3|audio/snc_noodman.ogg" name="menu">
+        <title url="img/bg/start_background.jpg"  name="title"/>
+        <playbutton url="img/sprites/startbutton_266x104.png" width="266" height="104" x="303" y="450"  name="playbutton">
+            <anim loop="false" fps="10" sound="audio/buttonclick.mp3|audio/buttonclick.ogg" name="move">0,1</anim>
+        </playbutton>
+        <sprite url="img/sprites/menu_anim.png"  width="872" height="600" x="435" y="300" name="candle1">
+            <anim loop="false" fps="10" name="move">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7</anim>
+        </sprite>
+        <sprite url="img/sprites/menu_animals.png"  width="872" height="600" x="435" y="300" name="candle2">
+            <anim loop="false" fps="10" name="move">0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7</anim>
+
+        </sprite>
+		<sprite url="img/sprites/menu_snake.png"  width="872" height="600" x="435" y="300" name="candle3">
+            <anim loop="true" fps="8" name="move">6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,0,1,2,3,4,5,6,7,0,1,2,3,4,5,6,7,0,1,2,3,4,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6</anim>
+
+        </sprite>
+    </menu>
+
+
+    <instruction url="img/bg/instructions.png" name="instruction" x="0" y="0">
+
+    </instruction>
+    <bg >
+        <level minH="100" maxH="675" minV="100" maxV="350">
+            <bottom url="img/bg/background.jpg" width="872" height="600" scrollSpeed="3" x="0" y="0" name="bottom"/>
+
+        </level>
+        <level minH="100" maxH="675" minV="100" maxV="350">
+            <bottom url="img/bg/background_level2.jpg" width="872" height="600" scrollSpeed="4" x="0" y="0" name="bottom_2"/>
+
+        </level>
+        <level minH="100" maxH="675" minV="100" maxV="350">
+            <bottom url="img/bg/background_level3.jpg" width="872" height="600" scrollSpeed="5" x="0" y="0" name="bottom_3"/>
+
+        </level>
+		<level minH="100" maxH="675" minV="100" maxV="350">
+            <bottom url="img/bg/background_level4.jpg" width="872" height="600" scrollSpeed="6" x="0" y="0" name="bottom_4"/>
+
+        </level>
+    </bg>
+
+    <fg foreground="top">
+        <level minH="100" maxH="675" minV="0" maxV="150">
+           <top url="img/bg/foregroundelements.png" width="3488" height="600" scrollSpeed="5" x="0" y="000" name="fg"/>
+        </level>
+        <level minH="100" maxH="675" minV="0" maxV="150">
+            <top url="img/bg/foregroundelements.png" width="3488" height="600" scrollSpeed="6" x="0" y="000" name="fg_2"/>
+        </level>
+        <level minH="100" maxH="675" minV="0" maxV="150">
+            <top url="img/bg/foregroundelements.png" width="3488" height="600" scrollSpeed="7" x="0" y="000" name="fg_3"/>
+        </level>
+		<level minH="100" maxH="675" minV="0" maxV="150">
+            <top url="img/bg/foregroundelements.png" width="3488" height="600" scrollSpeed="8" x="0" y="000" name="fg_4"/>
+        </level>
+
+    </fg>
+
+    <gamesound sound="" name="bgsound"/>
+    <mutebutton url="img/sprites/mutebutton.png" width="46" height="37" x="810" y="550" name="mutebutton"/>
+
+
+
+    <hero url="img/sprites/sanjay_85x174.png" alpha="1" anchorX="0.5" anchorY="0" width="85" height="174" x="436" y="420" hitWidth="50" hitHeight="100" hitX="5" hitY="-5.5" moveX="1" moveY="1"
+          name="hero">
+        <anim loop="true" fps="18" name="move">0,1,2,3,4,5,6,7,8</anim>
+        <anim loop="true" fps="18" name="fail">0,1,2,3,4,5,6,7,8</anim>
+        <lives url="img/sprites/lives.png" x="730" y="10" count="5"></lives>
+        <score fontName="archivo_blackregular" fontSize="30" align="right" color="#ffffff"/>
+        <projectile mode="on" url="img/sprites/egg.png" anchorX=".5" anchorY=".5" width="25" height="25" speedX="500" speedY="0" fireRate="250" name="projectile">
+            <anim loop="false" fps="10" sname="enm_end" sound="audio/hit_splat.mp3|audio/hit_splat.ogg" name="shoot" >0</anim>
+        </projectile>
+    </hero>
+
+    <levelfont fontName="archivo_blackregular" fontSize="60" align="center" color="#ffffff" />
+    <pointsFrame mode="on" url="img/sprites/scoring_93x57.png" width="93" height="57" name="pointsFrame"/>
+
+
+    <objects>
+            <level>
+                <obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="700" y="" hitWidth="60" hitHeight="70" hitX="0" hitY="-20" count="15" minSpeed="0" maxSpeed="1.8"
+                     spacing="6" randomSpeed="false" randomAngle ="true" randomFrameCount="0" points="1" pointsFrame="0" immortal="true" immovable="true" name="candle">
+                    <anim loop="false" fps="12" name="move">0</anim>
+                    <anim loop="false" fps="12" name="end" sname="obj_end"  sound="audio/combo.mp3|audio/combo.ogg">0,7</anim>
+                </obj>
+				 <obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="800" y="" hitWidth="60" hitHeight="70" hitX="0" hitY="-20" count="15" minSpeed="0" maxSpeed="1.8"
+                     spacing="6" randomSpeed="false" randomAngle ="true" randomFrameCount="0" points="1" pointsFrame="0" immortal="true" immovable="true" name="candle">
+                    <anim loop="false" fps="12" name="move">1</anim>
+                    <anim loop="false" fps="12" name="end" sname="obj_end"  sound="audio/combo.mp3|audio/combo.ogg">1,7</anim>
+                </obj>
+				 <obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="400" y="" hitWidth="60" hitHeight="70" hitX="0" hitY="-20" count="15" minSpeed="0" maxSpeed="1.8"
+                     spacing="6" randomSpeed="false" randomAngle ="true" randomFrameCount="0" points="1" pointsFrame="0" immortal="true" immovable="true" name="candle">
+                    <anim loop="false" fps="12" name="move">2</anim>
+                    <anim loop="false" fps="12" name="end" sname="obj_end"  sound="audio/combo.mp3|audio/combo.ogg">2,7</anim>
+                </obj>
+				 <obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="600" y="" hitWidth="60" hitHeight="70" hitX="0" hitY="-20" count="15" minSpeed="0" maxSpeed="1.8"
+                     spacing="6" randomSpeed="false" randomAngle ="true" randomFrameCount="0" points="1" pointsFrame="0" immortal="true" immovable="true" name="candle">
+                    <anim loop="false" fps="12" name="move">3</anim>
+                    <anim loop="false" fps="12" name="end" sname="obj_end"  sound="audio/combo.mp3|audio/combo.ogg">3,7</anim>
+                </obj>
+				 <obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="500" y="" hitWidth="60" hitHeight="70" hitX="0" hitY="-20" count="15" minSpeed="0" maxSpeed="1.8"
+                     spacing="6" randomSpeed="false" randomAngle ="true" randomFrameCount="0" points="1" pointsFrame="0" immortal="true" immovable="true" name="candle">
+                    <anim loop="false" fps="12" name="move">4</anim>
+                    <anim loop="false" fps="12" name="end" sname="obj_end"  sound="audio/combo.mp3|audio/combo.ogg">4,7</anim>
+                </obj>
+            </level>
+        <level>
+            <obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="900" y="" hitWidth="33" hitHeight="10" hitX="-10" hitY="-20" count="25" minSpeed="0" maxSpeed="2.4"
+                 spacing="6" randomSpeed="false" randomAngle ="true" randomFrameCount="0"  points="1" pointsFrame="0" immortal="true" immovable="true" name="candle_2">
+                <anim loop="false" fps="12" name="move">5</anim>
+                <anim loop="false" fps="12" name="end" sname="obj_end" sound="audio/combo.mp3|audio/combo.ogg">5,7</anim>
+            </obj>
+			<obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="750" y="" hitWidth="33" hitHeight="10" hitX="-10" hitY="-20" count="25" minSpeed="0" maxSpeed="2.4"
+                 spacing="6" randomSpeed="false" randomAngle ="true" randomFrameCount="0"  points="1" pointsFrame="0" immortal="true" immovable="true" name="candle_2">
+                <anim loop="false" fps="12" name="move">6</anim>
+                <anim loop="false" fps="12" name="end" sname="obj_end" sound="audio/combo.mp3|audio/combo.ogg">6,7</anim>
+            </obj>
+			<obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="600" y="" hitWidth="33" hitHeight="10" hitX="-10" hitY="-20" count="25" minSpeed="0" maxSpeed="2.4"
+                 spacing="6" randomSpeed="false" randomAngle ="true" randomFrameCount="0"  points="1" pointsFrame="0" immortal="true" immovable="true" name="candle_2">
+                <anim loop="false" fps="12" name="move">0</anim>
+                <anim loop="false" fps="12" name="end" sname="obj_end" sound="audio/combo.mp3|audio/combo.ogg">0,7</anim>
+            </obj>
+			<obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="450" y="" hitWidth="33" hitHeight="10" hitX="-10" hitY="-20" count="25" minSpeed="0" maxSpeed="2.4"
+                 spacing="6" randomSpeed="false" randomAngle ="true" randomFrameCount="0"  points="1" pointsFrame="0" immortal="true" immovable="true" name="candle_2">
+                <anim loop="false" fps="12" name="move">1</anim>
+                <anim loop="false" fps="12" name="end" sname="obj_end" sound="audio/combo.mp3|audio/combo.ogg">1,7</anim>
+            </obj>
+        </level>
+
+        <level>
+            <obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="900" y="" hitWidth="12" hitHeight="10" hitX="-7" hitY="-20" count="35" minSpeed="0" maxSpeed="3.0"
+                 spacing="6" randomSpeed="false" randomAngle ="false" randomFrameCount="0"  points="1" pointsFrame="0" immortal="true" immovable="true" name="candle_3">
+                <anim loop="false" fps="12" name="move">2</anim>
+                <anim loop="false" fps="12" name="end" sname="obj_end" sound="audio/combo.mp3|audio/combo.ogg">2,7</anim>
+            </obj>
+			<obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="700" y="" hitWidth="12" hitHeight="10" hitX="-7" hitY="-20" count="35" minSpeed="0" maxSpeed="3.0"
+                 spacing="6" randomSpeed="false" randomAngle ="false" randomFrameCount="0"  points="1" pointsFrame="0" immortal="true" immovable="true" name="candle_3">
+                <anim loop="false" fps="12" name="move">3</anim>
+                <anim loop="false" fps="12" name="end" sname="obj_end" sound="audio/combo.mp3|audio/combo.ogg">3,7</anim>
+            </obj>
+			<obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="500" y="" hitWidth="12" hitHeight="10" hitX="-7" hitY="-20" count="35" minSpeed="0" maxSpeed="3.0"
+                 spacing="6" randomSpeed="false" randomAngle ="false" randomFrameCount="0"  points="1" pointsFrame="0" immortal="true" immovable="true" name="candle_3">
+                <anim loop="false" fps="12" name="move">4</anim>
+                <anim loop="false" fps="12" name="end" sname="obj_end" sound="audio/combo.mp3|audio/combo.ogg">4,7</anim>
+            </obj>
+        </level>
+		
+		<level>
+            <obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="900" y="" hitWidth="12" hitHeight="10" hitX="-7" hitY="-20" count="35" minSpeed="0" maxSpeed="3.6"
+                 spacing="6" randomSpeed="false" randomAngle ="false" randomFrameCount="0"  points="1" pointsFrame="0" immortal="true" immovable="true" name="candle_3">
+                <anim loop="false" fps="12" name="move">5</anim>
+                <anim loop="false" fps="12" name="end" sname="obj_end" sound="audio/combo.mp3|audio/combo.ogg">5,7</anim>
+            </obj>
+			<obj url="img/sprites/easteregg_60x70.png" anchorX="0.5" anchorY="0.5" width="60" height="70" x="600" y="" hitWidth="12" hitHeight="10" hitX="-7" hitY="-20" count="35" minSpeed="0" maxSpeed="3.6"
+                 spacing="6" randomSpeed="false" randomAngle ="false" randomFrameCount="0"  points="1" pointsFrame="0" immortal="true" immovable="true" name="candle_3">
+                <anim loop="false" fps="12" name="move">6</anim>
+                <anim loop="false" fps="12" name="end" sname="obj_end" sound="audio/combo.mp3|audio/combo.ogg">6,7</anim>
+            </obj>
+        </level>
+
+    </objects>
+
+    <enemies>
+        <level>
+            <obj url="img/sprites/noodman_80x151.png" anchorX="0.5" anchorY="0.5" width="80" height="151" x="820" y="" hitWidth="80" hitHeight="100" hitX="0" hitY="0" count="50" minSpeed="0" maxSpeed="1.8"
+                 spacing="3" randomSpeed="false" randomAngle ="true" randomFrameCount="0"  points="0" pointsFrame="-1" shootPoints="0" shootPointsFrame="3" immortal="false" immovable="true" name="frame" >
+                <anim loop="false" fps="18" name="move">0</anim>
+                <anim loop="false" fps="18" name="end" sname="enm_end" sound="audio/lose_life.mp3|audio/lose_life.ogg">1,1,1</anim>
+            </obj>
+        </level>
+        <level>
+            <obj url="img/sprites/noodman_80x151.png" anchorX="0.5" anchorY="0.5" width="80" height="151" x="920" y="" hitWidth="10" hitHeight="100" hitX="0" hitY="0" count="50" minSpeed="0" maxSpeed="2.4"
+                 spacing="3" randomSpeed="false" randomAngle ="true" randomFrameCount="0"  points="0" pointsFrame="-1" shootPoints="0" shootPointsFrame="3" immortal="false" immovable="true" name="frame_2" >
+                <anim loop="true" fps="12" name="move">0</anim>
+                <anim loop="false" fps="12" name="end" sname="enm_end" sound="audio/lose_life.mp3|audio/lose_life.ogg">1,1,1</anim>
+            </obj>
+        </level>
+        <level>
+            <obj url="img/sprites/noodman_80x151.png" anchorX="0.5" anchorY="0.5" width="80" height="151" x="1020" y="" hitWidth="80" hitHeight="100" hitX="0" hitY="0" count="100" minSpeed="0" maxSpeed="3.0"
+                 spacing="3" randomSpeed="false" randomAngle ="true" randomFrameCount="0"  points="0" pointsFrame="-1" shootPoints="0" shootPointsFrame="3" immortal="false" immovable="true" name="frame_3" >
+                <anim loop="true" fps="12" name="move">0</anim>
+                <anim loop="false" fps="12" name="end" sname="enm_end" sound="audio/lose_life.mp3|audio/lose_life.ogg">1,1,1</anim>
+            </obj>
+        </level>
+		<level>
+            <obj url="img/sprites/noodman_80x151.png" anchorX="0.5" anchorY="0.5" width="80" height="151" x="1020" y="" hitWidth="80" hitHeight="100" hitX="0" hitY="0" count="100" minSpeed="0" maxSpeed="3.6"
+                 spacing="3" randomSpeed="false" randomAngle ="true" randomFrameCount="0"  points="0" pointsFrame="-1" shootPoints="0" shootPointsFrame="3" immortal="false" immovable="true" name="frame_3" >
+                <anim loop="true" fps="12" name="move">0</anim>
+                <anim loop="false" fps="12" name="end" sname="enm_end" sound="audio/lose_life.mp3|audio/lose_life.ogg">1,1,1</anim>
+            </obj>
+        </level>
+    </enemies>
+
+    <particles mode="off">
+        <level>
+            <obj url="img/sprites/egg_splat_62x67.png" anchorX="0.5" anchorY="0.5" width="62" height="67" x="0" y="" count="5" immortal="false" randomAngle ="true" name="flame" >
+                <anim loop="true" fps="12" name="move">0</anim>
+                <anim loop="false" fps="12" name="end" sound="audio/lose_life.mp3|audio/lose_life.ogg">0,1,2,3</anim>
+            </obj>
+        </level>
+    </particles>
+
+    <end>
+        <gameover url="img/bg/gameover.png" sound="audio/gameover.mp3|audio/gameover.ogg" width="872" height="600" x="0" y="0" name="gameover"/>
+        <tryagain url="img/sprites/tryagain.png" width="266" height="80" x="303" y="300" name="tryagain"/>
+        <submitscore mode="off" url="img/sprites/submitscore.png" width="260" height="80" x="303" y="380" name="submitscore"/>
+        <font fontName="archivo_blackregular" fontSize="50" align="center" color="#ffffff"/>
+        <competition mode="off" minScore="0" url="http://www.nickjr.co.uk/">
+            <button url="img/sprites/entercompetition.png" width="345" height="102" x="264" y="460" name="entercomp"/>
+        </competition>
+        <highscore url="img/bg/highscore.png" width="870" height="600" x="0" y="0" tableX="225" tableY="140" spacingX="200" spacingY="30" name="highscores_table" >
+            <font fontName="archivo_blackregular" fontSize="25"  color="#ffffff"/>
+            <tryagain url="img/sprites/tryagain.png" width="266" height="80" x="303" y="500" name="tryagain"/>
+        </highscore>
+    </end>
+
+
+</game>
