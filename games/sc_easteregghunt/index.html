@@ -21,7 +21,7 @@
     font-weight: normal;
     font-style: normal;
         }
-        body {width:100%;height:1005;}
+        body {width:100%;height:100%;}
        canvas {padding:0px; width: 100%; height: 100%; display: block; margin : auto;}
    </style>
 	<script type="text/javascript">
@@ -47,10 +47,7 @@
                 //console.log('bg',$main_node.find('bg').children().eq(0) );
                 mainW = Number($main_node.attr("width"));
                 mainH = Number($main_node.attr("height"));
-                game = new Phaser.Game( Number($main_node.attr("width")), Number($main_node.attr("height")), Phaser.CANVAS);
-                console.log('w',mainW );
-                console.log('h',mainH );
-				
+                game = new Phaser.Game( Number($main_node.attr("width")), Number($main_node.attr("height")), Phaser.CANVAS);				
 
                 game.state.add('boot', Main.Boot);
                 game.state.add('preloader', Main.Preloader);
@@ -66,6 +63,7 @@
 
         $( window ).resize(function() {
           console.log($(window).width(), "x", $(window).height());
+          $("canvas").width($(window).width()).height($(window).height());
         });
 
 		})();
