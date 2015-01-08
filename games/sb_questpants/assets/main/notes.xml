@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes>
+
+	<!-- long term goal -->
+	<note id="1" slot="3">
+		
+		<text>Track down the lost treasure of Dead Eye Gulch and save the Krusty Krab.</text>
+		<asset>mrkrabs</asset>
+		
+   </note>
+
+
+   <!-- mid-level goals -->
+   <note id="2" slot="2">
+		
+		<text not_item="journal_1">Find a way to gain access to the secret cave at the top of Goo Lagoon beach.</text>
+		<asset>spongebob</asset>
+		
+   </note>
+
+   <note id="3" slot="2">
+		
+		<text item="journal_1" not_item="boat_keys">Plankton has trapped you in the cave, find another way to get out.</text>
+		<asset>spongebob</asset>
+		
+   </note>
+
+   <note id="4" slot="2">
+		
+		<text item="boat_keys" not_used="soda">There's another hidden cave at the bottom of Goo Lagoon beach. Find a way in.</text>
+		<asset>spongebob</asset>
+		
+   </note>
+
+   <note id="5" slot="2">
+		
+		<text item="journal_2">The treasure is somewhere in Dead Eye mine. The entrance is through the Jellyfish fields.</text>
+		<asset>spongebob</asset>
+		
+   </note>
+
+
+   <!-- short term goals -->
+
+   <note id="6" slot="1">
+		
+		<text character="patrick" not_used="krabby_patty">Patrick is hungry, try and find him something to eat.</text>
+		<asset>patrick</asset>
+		
+   </note>
+
+   <note id="7" slot="1">
+		
+		<text character="squidward" not_used="magazine">Squidward's Reef Blower might be useful. Find a way to distract him.</text>
+		<asset>squidward</asset>
+		
+   </note>
+
+   <note id="8" slot="1">
+		
+		<text character="mrspuff" not_used="boat_keys" not_item="boat_keys">Mrs. Puff has lost her boat keys. Keep an eye out for them.</text>
+		<asset>mrspuff</asset>
+		
+   </note>
+
+   <!-- alternative - item before character
+   <note id="9" slot="1">
+		
+		<text not_used="boat_keys" item="boat_keys">Somebody has lost there boat keys. I wonder whose they could be?</text>
+		<asset>mrspuff</asset>
+		
+   </note>
+   -->
+
+   <note id="9" slot="1">
+		
+		<text character="harold" not_used="washer">Harold is selling lemonade for 25 cents. Try to find a quarter (or something similar).</text>
+		<asset>harold</asset>
+		
+   </note>
+
+   <note id="10" slot="1">
+		
+		<text character="larry" not_used="soda">Larry wants to impress girls with a feat of strength, but he's too thirsty.</text>
+		<asset>larry</asset>
+		
+   </note>
+
+   <note id="11" slot="1">
+		
+		<text character="mailfish" not_item="mailbag">Mailfish's bag is stuck on the Krusty Krab sign. Find a way to knock it down.</text>
+		<asset>mailfish</asset>
+		
+   </note>
+
+   <!-- supplimental - after mailbag collection -->
+    <note id="12" slot="1">
+		
+		<text character="mailfish" item="mailbag" not_used="mailbag">Mailfish needs his mailbag to deliver the rest of the mail.</text>
+		<asset>mailfish</asset>
+		
+   </note>
+
+   <note id="13" slot="1">
+		
+		<text character="drgill" not_used="coupon">Dr. Gill is giving free health checks at the hospital for everyone who was mailed a coupon.</text>
+		<asset>drgill</asset>
+		
+   </note>
+
+   <note id="14" slot="1">
+		
+		<text character="officerjohn" not_used="donut">Officer John is guarding the mine entrance. You need to find something to distract/bribe him.</text>
+		<asset>officerjohn</asset>
+		
+   </note>
+
+</notes>

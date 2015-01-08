@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinematic>
+
+	<frame id="1" loop="true">
+		
+		<asset>intro_frame1</asset>
+		<messages>
+			<message character="Mr Krabs" asset="mrkrabs">I'm ruined!</message>
+			<message character="SpongeBob" asset="spongebob">What's happened Mr Krabs?</message>
+			<message character="Mr Krabs" asset="mrkrabs">That daughter of mine spent all of my hard earned gold buying a million pairs of shoes!</message>
+			<message character="Mr Krabs" asset="mrkrabs">I may have to do the unthinkable and sell the Krusty Krab!</message>
+		</messages>
+		
+   </frame>
+
+   <frame id="2" loop="false">
+		
+		<asset>intro_frame2</asset>
+		<messages>
+			<message character="Grandpa Redbeard" asset="redbeard">Sell the WHAT!?</message>
+		</messages>
+		
+   </frame>
+
+   <frame id="3" loop="true">
+		
+		<asset>intro_frame4</asset>
+		<messages>
+			<message character="Mr Krabs" asset="mrkrabs">The Krusty Krab and the Krabby Patty formula to that low down dirty cur plankton. *spits*</message>
+			<message character="Mr Krabs" asset="mrkrabs">Unless you happen to have some money tucked away somewhere?</message>
+			<message character="Grandpa Redbeard" asset="redbeard">Well, there is the lost treasure of Dead Eye Gulch!</message>
+		</messages>
+		
+   </frame>
+
+  <frame id="4" loop="false">
+		
+		<asset>intro_frame3</asset>
+		<messages>
+			<message character="Grandpa Redbeard" asset="redbeard">It belonged to your ancestor, William Krabs who owned the Krusty Kantina,</message>
+			<message character="Grandpa Redbeard" asset="redbeard">back when Bikini Bottom was called Dead Eye Gulch.</message>
+			<message character="Grandpa Redbeard" asset="redbeard">He was forced to hand it over to the outlaw, Dead Eye Plankton, but</message>
+			<message character="Grandpa Redbeard" asset="redbeard">Dead Eye Plankton was thrown in jail before William Krabs could ever retrieve it.</message>
+		</messages>
+		
+   </frame>
+
+  <frame id="5" loop="true">
+		
+		<asset>intro_frame4</asset>
+		<messages>
+			<message character="SpongeBob" asset="spongebob">Mr Krabs! I can help you! Bikini Bottom needs the Krusty Krab!</message>
+			<message character="SpongeBob" asset="spongebob">Let's use William Krabs' journal to find the treasure.</message>
+			<message character="SpongeBob" asset="spongebob">There are pieces missing, but we'll figure it out.</message>
+		</messages>
+		
+   </frame>
+
+   <frame id="6" loop="true">
+		
+		<asset>intro_frame5</asset>
+		<messages>
+			<message character="Plankton" asset="plankton">Hahaha! My plan went off without a hitch!</message>
+			<message character="Plankton" asset="plankton">I knew tricking that simpleton Pearl would work.</message>
+			<message character="Plankton" asset="plankton">Soon the Krusty Krab, the Krabby Patty Recipe and the treasure will all be mine!</message>
+		</messages>
+		
+   </frame>
+
+</cinematic>

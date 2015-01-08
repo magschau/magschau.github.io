@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+
+	<object id="1">
+		
+		<asset>barrel_1</asset>
+		<hit_area x="0" y="0" w="90" h="40"></hit_area>
+		<anchor x="56" y="58"></anchor>
+		
+   </object>
+
+   <object id="2">
+		
+		<asset>barrel_2</asset>
+		<hit_area x="0" y="0" w="75" h="40"></hit_area>
+		<anchor x="26" y="36"></anchor>
+		
+   </object>
+
+   <object id="3">
+		
+		<asset>barrels</asset>
+		<hit_area x="0" y="0" w="140" h="70"></hit_area>
+		<anchor x="90" y="95"></anchor>
+		
+   </object>
+
+   <object id="4">
+		
+		<asset>broken_piano</asset>
+		<hit_area x="0" y="0" w="125" h="60"></hit_area>
+		<anchor x="72" y="145"></anchor>
+		
+   </object>
+
+   <object id="5">
+		
+		<asset>caution_sign</asset>
+		<hit_area x="0" y="0" w="135" h="30"></hit_area>
+		<anchor x="58" y="140"></anchor>
+		
+   </object>
+
+   <object id="6">
+		
+		<asset>dungeon_rock_1</asset>
+		<hit_area x="0" y="0" w="180" h="100"></hit_area>
+		<anchor x="110" y="210"></anchor>
+		
+   </object>
+
+   <object id="7">
+		
+		<asset>dungeon_rock_2</asset>
+		<hit_area x="0" y="0" w="140" h="40"></hit_area>
+		<anchor x="80" y="90"></anchor>
+		
+   </object>
+
+   <object id="8">
+		
+		<asset>dungeon_rock_3</asset>
+		<hit_area x="0" y="0" w="160" h="65"></hit_area>
+		<anchor x="90" y="150"></anchor>
+		
+   </object>
+
+   <object id="9">
+		
+		<asset>town_rock_1</asset>
+		<hit_area x="0" y="0" w="180" h="100"></hit_area>
+		<anchor x="110" y="210"></anchor>
+		
+   </object>
+
+   <object id="10">
+		
+		<asset>town_rock_2</asset>
+		<hit_area x="0" y="0" w="140" h="40"></hit_area>
+		<anchor x="80" y="90"></anchor>
+		
+   </object>
+
+   <object id="11">
+		
+		<asset>town_rock_3</asset>
+		<hit_area x="0" y="0" w="160" h="65"></hit_area>
+		<anchor x="90" y="150"></anchor>
+		
+   </object>
+
+   <object id="12">
+		
+		<asset>jail_sign</asset>
+		<hit_area x="0" y="0" w="270" h="50"></hit_area>
+		<anchor x="160" y="85"></anchor>
+		
+   </object>
+
+   <object id="13">
+		
+		<asset>kantina_sign</asset>
+		<hit_area x="0" y="0" w="180" h="90"></hit_area>
+		<anchor x="90" y="125"></anchor>
+		
+   </object>
+
+   <object id="14">
+		
+		<asset>mine_sign</asset>
+		<hit_area x="0" y="0" w="135" h="30"></hit_area>
+		<anchor x="58" y="140"></anchor>
+		
+   </object>
+
+   <object id="15">
+		
+		<asset>parasol_1</asset>
+		<hit_area x="0" y="0" w="30" h="30"></hit_area>
+		<anchor x="105" y="150"></anchor>
+		
+   </object>
+
+   <object id="16">
+		
+		<asset>parasol_2</asset>
+		<hit_area x="0" y="0" w="30" h="30"></hit_area>
+		<anchor x="60" y="150"></anchor>
+		
+   </object>
+
+   <object id="17">
+		
+		<asset>sunbed_1</asset>
+		<hit_area x="0" y="0" w="144" h="40"></hit_area>
+		<anchor x="72" y="85"></anchor>
+		
+   </object>
+
+   <object id="18">
+		
+		<asset>sunbed_2</asset>
+		<hit_area x="0" y="0" w="144" h="40"></hit_area>
+		<anchor x="72" y="85"></anchor>
+		
+   </object>
+
+   <object id="19">
+		
+		<asset>minecart</asset>
+		<hit_area x="-30" y="160" w="80" h="100"></hit_area>
+		<anchor x="80" y="-50"></anchor>
+		
+   </object>
+
+    <object id="20">
+		
+		<asset>lemonade_stand</asset>
+		<hit_area x="3" y="-30" w="163" h="75"></hit_area>
+		<anchor x="110" y="254"></anchor>
+		
+   </object>
+
+   <object id="21">
+		
+		<asset>jellyfish_field_rock_1</asset>
+		<hit_area x="0" y="0" w="180" h="74"></hit_area>
+		<anchor x="95" y="84"></anchor>
+		
+   </object>
+
+   <object id="22">
+		
+		<asset>jellyfish_field_rock_2</asset>
+		<hit_area x="0" y="0" w="100" h="80"></hit_area>
+		<anchor x="48" y="120"></anchor>
+		
+   </object>
+
+    <object id="23">
+		
+		<asset>jelly_sign_1</asset>
+		<hit_area x="0" y="0" w="135" h="30"></hit_area>
+		<anchor x="58" y="140"></anchor>
+		
+   </object>
+
+    <object id="24">
+		
+		<asset>jelly_sign_2</asset>
+		<hit_area x="0" y="0" w="135" h="30"></hit_area>
+		<anchor x="58" y="140"></anchor>
+		
+   </object>
+
+    <object id="25">
+		
+		<asset>jelly_sign_3</asset>
+		<hit_area x="0" y="0" w="135" h="30"></hit_area>
+		<anchor x="58" y="140"></anchor>
+		
+   </object>
+
+</objects>

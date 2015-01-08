@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+	<item id="1">
+		
+		<name>Anchor</name>
+		<asset>anchor</asset>
+		<description>Sandy holds the Goo Lagoon record for the Anchor Toss: 510 feet. </description>
+		
+	</item>
+	
+	<item id="2">
+		
+		<name>Krabby Patty Recipe</name>
+		<asset>formula</asset>
+		<description>Plankton has tried to steal the Krabby Patty recipe over 1,000 times.</description>
+		
+	</item>
+	
+	<item id="3">
+		
+		<name>Goo Goo Gas</name>
+		<asset>gas</asset>
+		<description>Karen was once sprayed by Goo Goo Gas (invented by Plankton) which turned her into a calculator.</description>
+		
+	</item>
+	
+	<item id="4">
+		
+		<name>Glovey Glove Mascot</name>
+		<asset>glovey</asset>
+		<description>Patrick used to love Glovey Glove when he was little but is afraid of him now.</description>
+		
+	</item>
+	
+	<item id="5">
+		
+		<name>Jellyfish Jelly</name>
+		<asset>jelly</asset>
+		<description>Jellyfish can squirt out Jelly which is especially tasty! It varies in colour depending on the colour of the jellyfish.</description>
+		
+	</item>
+	
+	<item id="6">
+		
+		<name>SpongeBob's Licence</name>
+		<asset>license</asset>
+		<description>SpongeBob has failed his driving test 1,258,056 times.</description>
+		
+	</item>
+	
+	<item id="7">
+		
+		<name>Mrs Puff Headline</name>
+		<asset>newspaper</asset>
+		<description>Mrs Puff has been arrested many times, sometimes just to spend time away from SpongeBob!</description>
+	</item>
+	
+	
+	<item id="8">
+		
+		<name>Pearl Patty Sculpture</name>
+		<asset>pearl</asset>
+		<description>Pearl was surprised with a 400 pound raw Krabby Patty sculpture for her 16th birthday, she was not impressed!</description>
+		
+	</item>
+	
+	<item id="9">
+		
+		<name>Can of Snail Food</name>
+		<asset>snailfood</asset>
+		<description>In honour of Opposite Day, Gary was able to bark like a dog.</description>
+		
+	</item>
+	
+	<item id="10">
+		
+		<name>Picture of Squidward</name>
+		<asset>squidward_picture</asset>
+		<description>Squidward wasn’t always bald.  He once had long, beautiful hair.</description>
+		
+	</item>
+	
+	<item id="11">
+		
+		<name>Manly Toughness Trophy</name>
+		<asset>trophy</asset>
+		<description>In the Navy, Mr Krabs received the nickname Armor Abs Krabs.</description>
+		
+	</item>
+	
+	<item id="12">
+		
+		<name>Bunch of Tulips</name>
+		<asset>tulips</asset>
+		<description>SpongeBob is allergic to tulips.</description>
+		
+	</item>
+
+</items>

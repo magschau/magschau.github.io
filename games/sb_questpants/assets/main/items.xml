@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+	<item id="1">
+		
+		<name>Krabby Patty</name>
+		<asset>krabby_patty</asset>
+		<dialogue action="brain_tutorial">Thanks Mr Krabs. I'll definitely need Krabby Patties along the way.</dialogue>
+		<spawn location="1" x="3075" y="2775"></spawn>
+		
+	</item>
+	
+	<item id="2">
+		
+		<name>House Fancy Magazine</name>
+		<asset>magazine</asset>
+		<dialogue>The latest edition of that magazine that Squidward is always reading.</dialogue>
+		<spawn location="1" x="4125" y="2625" used_item="krabby_patty"></spawn>
+		
+	</item>
+	
+	<item id="3">
+		
+		<name>Mrs. Puff's Boat Keys</name>
+		<asset>boat_keys</asset>
+		<dialogue>Boat keys? Who could these belong to?/I'll hold onto them for now.</dialogue>
+		<spawn location="3" x="975" y="375"></spawn>
+		
+	</item>
+	
+	<item id="4">
+		
+		<name>Shiny Washer</name>
+		<asset>washer</asset>
+		<dialogue>This shiny Washer must have fallen off of Mrs. Puff's boat./I sure hope it wasn't important.</dialogue>
+		<spawn location="1" x="3225" y="3975" used_item="boat_keys"></spawn>
+		
+	</item>
+	
+	<item id="5">
+		
+		<name>Lemonade</name>
+		<asset>soda</asset>
+		<dialogue>It looks delicious, but I'll hang onto this Lemonade for now.</dialogue>
+		<spawn location="1" x="2625" y="1275" used_item="washer"></spawn>
+		
+	</item>
+	
+	<item id="6">
+		
+		<name>Mailbag</name>
+		<asset>mailbag</asset>
+		<dialogue>It's the Mailbag with everyone's mail in it.</dialogue>
+		<spawn location="1" x="2775" y="2775"></spawn>
+		
+	</item>
+	
+	<item id="7">
+		
+		<name>Free Medical Coupon</name>
+		<asset>coupon</asset>
+		<dialogue>A Medical Coupon/Good for one free check-up.</dialogue>
+		<spawn location="1" x="4275" y="1725" used_item="mailbag"></spawn>
+	</item>
+	
+	
+	<item id="8">
+		
+		<name>Sugar Free Donut</name>
+		<asset>donut</asset>
+		<dialogue>This Donut is sugarfree but still delicious./(*may contain a source of phenylalanine)</dialogue>
+		<spawn location="1" x="1875" y="2775" used_item="coupon"></spawn>
+		
+	</item>
+	
+	<item id="9">
+		
+		<name>Reef Blower</name>
+		<asset>reef_blower</asset>
+		<dialogue action="equipment_tutorial">The Reef Blower can clear away unwanted piles of sand,/and will knock back any hostiles I might encounter.</dialogue>
+		<spawn location="1" x="5475" y="2925" used_item="magazine"></spawn>
+		
+	</item>
+	
+	<item id="10">
+		
+		<name>Patty-pult</name>
+		<asset>pattypult</asset>
+		<dialogue action="equipment_tutorial">Some sort of patty launching device./I'll call it the Patty-pult!/I can use for self-defense and even trigger switches from a distance.</dialogue>
+		<spawn location="5" x="7125" y="375"></spawn>
+		
+	</item>
+	
+	<item id="11">
+		
+		<name>William Krabs' Journal 1</name>
+		<asset>journal_1</asset>
+		<dialogue action="plankton_1">It's an extract from William Krabs' journal./Apparently, the treasure was taken to Dead Eye Jail, through ANOTHER secret cave/hidden behind a boulder at the other end of Goo Lagoon beach.</dialogue>
+		<spawn location="2" x="5025" y="1875"></spawn>
+		
+	</item>
+	
+	<item id="12">
+		
+		<name>William Krabs' Journal 2</name>
+		<asset>journal_2</asset>
+		<dialogue action="plankton_2">Another extract from William Krabs' journal. The treasure is burried in Dead Eye Mine!/There's an entrance to the mine on the outskirts of town,/through the Jellyfish Fields.</dialogue>
+		<spawn location="5" x="8325" y="525"></spawn>
+		
+	</item>
+	
+	<item id="13">
+		
+		<name>William Krabs' Treasure</name>
+		<asset>treasure</asset>
+		<dialogue action = "game_complete">I need to get the treasure back to Mr Krabs immediately, he's going to be so happy./Hey, maybe I'll get a promotion to "Chief Krabby Patty Flipper"./Squidward would be so pleased.</dialogue>
+		<spawn location="11" x="1575" y="375"></spawn>
+		
+	</item>
+	
+	<item id="14">
+		
+		<name>Foam Hand</name>
+		<asset>foam_hand</asset>
+		<dialogue action="equipment_tutorial">A big foam hand, great for karate chopping!</dialogue>
+		<spawn location="11" x="1575" y="375"></spawn>
+		
+	</item>
+
+</items>

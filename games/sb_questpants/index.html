@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>SpongeBob QuestPants - Mobile Version</title>
+		
+		<script type="text/javascript" src="js/jsembed.js"></script>
+		<script type="text/javascript" src="flambe.js"></script>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<!--<script type="text/javascript" src="js/html5-orientation.js">-->
+		
+		<!-- JSEmbed -->
+        <script type="text/javascript">
+
+            var params = {
+                base: "", // Set a base url of all app content. Defaults "".
+                api: "flambe", // supported custom apis are defined in jsembed. Defaults "none".
+                autoscale: "true",
+				//scaletype: "fit", // update window.canvasScale on window resize? Defaults to "fit", supports "fill", "fillto", "none"
+                indexroot: "true", // use the current index url as the path root? If false uses domain root instead. Defaults false (use domain root).
+                //allowtouchmove: "false", // allow the page to scroll when user drags or swipes? Defaults to false.
+                //maxwidth: 1024, //The maximum width to scale the canvas to. Only works with fillto.
+                //maxheight: 640, //The maximum height to scale the canvas to. Only works with fillto.
+                libs: ["flambe.js"] // array of libs to embed before trying to launch app.
+            }
+			
+            // Attributes will be set on the embed target for use by the app. "base" will be set as well.
+            var attr = {
+			
+            };
+			
+            jsembed.embed("flambe.js", "embedtarget", "960", "560", params, attr);
+			
+        </script>
+		
+		<link rel="stylesheet" href="css/html5-orientation.css" type="text/css"/>
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="icons/57x57.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/72x72.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/114x114.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/144x144.png">
+		<link rel="apple-touch-icon-precomposed" href="icons/72x72.png"/> 
+		
+    </head>
+	
+
+	<body style="padding: 0; margin: 0; background-color:#000000">
+        <div id="embedtarget"></div>
+    </body>
+	
+	<!--
+	<body style="padding: 0; margin: 0; background-color:#000000">
+		<div id="embedtarget"></div>
+		<div data-supported="landscape" id="rotate-notify">
+			<div id="rotate-container">
+				<div id="rotate-wrapper">
+					<div id="rotate-content-wrapper"><h2>SpongeBob QuestPants</h2><p>The Legend of Deadeye Gulch</p><a href="http://m.nick.com/games" id="rotate-backlink">All Games</a></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	-->
+
+</html>
