@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feed Generator</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+var q_domains = [
+	"http://relaunch-br-mtvema-com.scenic-q.mtvi.com",
+	"http://relaunch-cn-mtvema-com.scenic-q.mtvi.com",
+	"http://relaunch-tv-mtvema-com.scenic-q.mtvi.com",
+	"http://relaunch-fr-mtvema-com.scenic-q.mtvi.com",
+	"http://relaunch-de-mtvema-com.scenic-q.mtvi.com",
+	"http://relaunch-it-mtvema-com.scenic-q.mtvi.com",
+	"http://relaunch-la-mtvema-com.scenic-q.mtvi.com",
+	"http://relaunch-nl-mtvema-com.scenic-q.mtvi.com",
+	"http://relaunch-ru-mtvema-com.scenic-q.mtvi.com",
+	"http://relaunch-es-mtvema-com.scenic-q.mtvi.com",
+	"http://relaunch-uk-mtvema-com.scenic-q.mtvi.com"
+];
+var live_domains = [
+	"http://br.mtvema.com",
+	"http://cn.mtvema.com",
+	"http://tv.mtvema.com",
+	"http://fr.mtvema.com",
+	"http://de.mtvema.com",
+	"http://it.mtvema.com",
+	"http://la.mtvema.com",
+	"http://nl.mtvema.com",
+	"http://ru.mtvema.com",
+	"http://es.mtvema.com",
+	"http://uk.mtvema.com"
+];
+
+$(document).ready(function() {
+	$("input#generate").click(function(){
+		feed = $("input#feed").val();
+		$("div#output").html("");
+		if($("input#q_domains").is(':checked')) {
+			for ( i=0; i<q_domains.length; i++ ){
+				a = q_domains[i] + feed + "<br>";
+				$("div#output").append(a);
+			}
+		}
+		if($("input#live_domains").is(':checked')) {
+			for ( i=0; i<live_domains.length; i++ ){
+				b = live_domains[i] + feed + "<br>";
+				$("div#output").append(b);
+			}
+		}
+	});
+});
+</script>
+
+<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'><style>
+body {
+	font-family: 'PT Mono';
+	line-height:26px;
+	font-weight:bold;
+	padding:25px;
+}
+input#feed {
+	width:500px;
+}
+div#output {
+	padding-top:20px;
+	font-size:12px;
+	line-height:15px;
+	font-weight:normal;
+}
+</style>
+</head>
+
+<body>
+FEED: <input type="input" id="feed"> <br \>
+<label><input type="checkbox" id="q_domains">Q DOMAINS</label> <br \>
+<label><input type="checkbox" id="live_domains">LIVE DOMAINS</label> <br \>
+<input type="button" id="generate" value="GENERATE">
+
+<div id="output"></div>
+</body>
+</html>
