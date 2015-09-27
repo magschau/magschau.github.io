@@ -13,9 +13,12 @@
           "entry.367772044": "Yes"
         });
       }
-      $("#go").click(function(e){
-        e.preventDefault();
+      $("#go").click(function(){
         alert("here");
+      });
+
+      $( "#target" ).click(function() {
+        alert( "Handler for .click() called." );
       });
 
     </script>
@@ -27,7 +30,11 @@ Address: entry.1653447231
 Plus 1: entry.367772044 (value: Yes/No)
 -->
 
-    <input type="button" id="go" name="go" value="Submit" \>
+    <button id="go" name="go" value="Submit"></button>
+
+    <div id="target">
+      Click here
+    </div>
 
   </body>
 </html>
