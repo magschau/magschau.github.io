@@ -13,7 +13,8 @@
           "entry.367772044": "Yes"
         });
       }
-      $("input#submit").click(function(){
+      $("#go").click(function(e){
+        e.preventDefault();
         alert("here");
       });
 
@@ -26,7 +27,7 @@ Address: entry.1653447231
 Plus 1: entry.367772044 (value: Yes/No)
 -->
 
-    <input type="submit" id="submit" name="submit" value="Submit" \>
+    <input type="submit" id="go" name="go" value="Submit" \>
 
   </body>
 </html>
