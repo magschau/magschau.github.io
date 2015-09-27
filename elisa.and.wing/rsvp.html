@@ -1,8 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="jquery.jqgoogleforms.min.js"></script>
+    <script type="text/javascript">
+      var googleForm = $(window).jqGoogleForms({"formKey": "1i62Hotc-UNFSUS7N4qa50gkHm6adev7meVn2L1WIR68"});
+      function submitForm()
+      {
+        googleForm.sendFormData({
+          "entry.2087601200": "Maggie Chau",
+          "entry.1653447231": "73-20 Austin St, #4K, Forest Hills, NY 11375",
+          "entry.367772044": "Yes"
+        });
+      }
+      $("input.submit").click(function({
+        alert("here");
+      }));
+
+    </script>
   </head>
   <body>
-    <iframe src="https://docs.google.com/forms/d/1i62Hotc-UNFSUS7N4qa50gkHm6adev7meVn2L1WIR68/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<!--
+Name: entry.2087601200
+Address: entry.1653447231
+Plus 1: entry.367772044 (value: Yes/No)
+-->
+
+    <input type="submit" name="submit" value="Submit" \>
+
   </body>
 </html>
