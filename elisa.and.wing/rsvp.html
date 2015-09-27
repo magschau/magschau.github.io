@@ -4,6 +4,13 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="jquery.jqgoogleforms.min.js"></script>
     <script type="text/javascript">
+      $("#go").click(function(){
+        alert("here");
+      });
+      $( "#target" ).click(function() {
+        alert( "Handler for .click() called." );
+      });
+
       var googleForm = $(window).jqGoogleForms({"formKey": "1i62Hotc-UNFSUS7N4qa50gkHm6adev7meVn2L1WIR68"});
       function submitForm()
       {
@@ -13,14 +20,6 @@
           "entry.367772044": "Yes"
         });
       }
-      $("#go").click(function(){
-        alert("here");
-      });
-
-      $( "#target" ).click(function() {
-        alert( "Handler for .click() called." );
-      });
-
     </script>
   </head>
   <body>
