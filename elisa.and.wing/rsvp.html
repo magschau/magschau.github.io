@@ -32,7 +32,7 @@
         width:50%;
         margin:auto 0px;
       }
-      div#error {
+      div#error, div#success {
         color:#000000;
         padding-top:5px;
         display:none;
@@ -67,6 +67,7 @@
       </select><br />
       <button id="go" name="go" value="Submit">SUBMIT</button>
       <div id="error">Submit failed, all fields required.</div>
+      <div id="success">RSVP received, thank you!</div>
     </section>
 
 <!--
@@ -113,13 +114,14 @@ Plus 1: entry.367772044 (value: Yes/No)
         return true;
       }
 
-      function goForm(x, y, x)
+      function goForm(x, y, z)
       {
         googleForm.sendFormData({
           "entry.2087601200": x,
           "entry.1653447231": y,
           "entry.367772044": z
         });
+        $("#success").fadeIn();
       }
 
     </script>
