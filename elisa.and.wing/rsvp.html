@@ -3,31 +3,122 @@
   <head>
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="jquery.jqgoogleforms.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        margin:0;
+        padding:0;
+        height:100%;
+        font-family: 'Lato', sans-serif;
+        text-align:center;
+        background-image: url('cover.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      input[type="text"], textarea, button, select {
+        width:60%;
+        margin:10px 0px;
+        padding:5px;
+        font-family: 'Lato', sans-serif;
+        font-size:20px;
+      }
+      h1, h2 {
+        font-family: 'Poiret One', cursive;
+      }
+      section#mainContainer {
+        background: rgba(102, 102, 102, .6);
+        padding:20px 0px;
+        width:50%;
+        margin:auto 0px;
+      }
+      div#error {
+        color:#000000;
+        padding-top:5px;
+        display:none;
+      }
+
+      @media (max-width: 1024px) {
+        section#mainContainer {
+          width: 75%;
+        }
+      }
+
+      @media (max-width: 768px) {
+        section#mainContainer {
+          width: 100%;
+        }
+        input[type="text"], textarea, button, select {
+          width:75%;
+        }
+      }
+    </style>
   </head>
   <body>
+    <section id="mainContainer">
+      <h1>ELISA & WING</h1>
+      <h2>JANUARY 10th, 2016</h2>
+      <input type="text" name="x_name" id="x_name" placeholder="Name" /><br />
+      <textarea name="x_address" id="x_address" placeholder="Address"></textarea><br />
+      <select name="x_plusone" id="x_plusone">
+        <option value="none">Plus 1?</option>
+        <option value="Yes">Yes</option>
+        <option value="No>">No</option>
+      </select><br />
+      <button id="go" name="go" value="Submit">SUBMIT</button>
+      <div id="error">Submit failed, all fields required.</div>
+    </section>
+
 <!--
 Name: entry.2087601200
 Address: entry.1653447231
 Plus 1: entry.367772044 (value: Yes/No)
 -->
 
-    <input name="x_name" id="x_name" placeholder"Name"></input>
-    <textarea name="x_address" id="x_address" placeholder"Address"></textarea>
-    <button id="go" name="go" value="Submit"></button>
-
     <script type="text/javascript">
+      $( document ).ready(function() {
+        adjustHeight();
+      });
+      $(window).resize(function() {
+        adjustHeight();
+      });
       $("button").click(function(){
-        alert("here");
-        goForm();
+        $("#error").hide();
+        a = $("#x_name").val();
+        b = $("#x_address").val();
+        c = $("#x_plusone").val();
+        if ( validate() ){
+          goForm(a, b, c);
+        }
       });
       var googleForm = $(window).jqGoogleForms({"formKey": "1i62Hotc-UNFSUS7N4qa50gkHm6adev7meVn2L1WIR68"});
 
-      function goForm()
+      function adjustHeight()
+      {
+        var temp_height = $("#mainContainer").height();
+        $("#mainContainer").css("height", $(window).height());
+        $("#mainContainer").css("padding-top", ($(window).height()-temp_height)/2 );
+      }
+
+      function validate()
+      {
+        a = $("#x_name").val();
+        b = $("#x_address").val();
+        c = $("#x_plusone").val();
+
+        if (a == "" || b == "" || c == "none"){
+          $("#error").fadeIn();
+          return false;
+        }
+        return true;
+      }
+
+      function goForm(x, y, x)
       {
         googleForm.sendFormData({
-          "entry.2087601200": "Maggie Chau",
-          "entry.1653447231": "73-20 Austin St, #4K, Forest Hills, NY 11375",
-          "entry.367772044": "Yes"
+          "entry.2087601200": x,
+          "entry.1653447231": y,
+          "entry.367772044": z
         });
       }
 
