@@ -25,10 +25,17 @@
         font-family: 'Lato', sans-serif;
         font-size:20px;
       }
-      h1, h2 {
+      h1, h2, h3 {
         font-family: 'Poiret One', cursive;
+        padding:0px;
+        margin:0px;
+      }
+      h2 {
+        padding-top:5px;
       }
       h3 {
+        padding-top:15px;
+        padding-bottom:15px;
         font-size: 16px;
       }
       section#mainContainer {
@@ -63,8 +70,9 @@
     <section id="mainContainer">
       <h1>ELISA & WING</h1>
       <h2>JANUARY 10th, 2016</h2>
-      <h3>W Taipei - No. 10, Section 5, Zhongxiao E Rd, Xinyi District, Taipei City, Taiwan 110</h3>
+      <h3>W Taipei <br /> No. 10, Section 5, Zhongxiao E Rd, Xinyi District, Taipei City, Taiwan 110</h3>
       <input type="text" name="x_name" id="x_name" placeholder="Name" /><br />
+      <input type="text" name="x_email" id="x_email" placeholder="Email" /><br />
       <textarea name="x_address" id="x_address" placeholder="Address"></textarea><br />
       <select name="x_plusone" id="x_plusone">
         <option value="none">Plus 1?</option>
@@ -78,6 +86,7 @@
 
 <!--
 Name: entry.2087601200
+Email: entry.81884155
 Address: entry.1653447231
 Plus 1: entry.367772044 (value: Yes/No)
 -->
@@ -92,10 +101,11 @@ Plus 1: entry.367772044 (value: Yes/No)
       $("button").click(function(){
         $("#error").hide();
         a = $("#x_name").val();
-        b = $("#x_address").val();
-        c = $("#x_plusone").val();
+        b = $("#x_email").val();
+        c = $("#x_address").val();
+        d = $("#x_plusone").val();
         if ( validate() ){
-          goForm(a, b, c);
+          goForm(a, b, c, d);
         }
       });
       var googleForm = $(window).jqGoogleForms({"formKey": "1i62Hotc-UNFSUS7N4qa50gkHm6adev7meVn2L1WIR68"});
@@ -113,17 +123,18 @@ Plus 1: entry.367772044 (value: Yes/No)
         b = $("#x_address").val();
         c = $("#x_plusone").val();
 
-        if (a == "" || b == "" || c == "none"){
+        if (a == "" || b == "" || c == "" || d == "none"){
           $("#error").fadeIn();
           return false;
         }
         return true;
       }
 
-      function goForm(x, y, z)
+      function goForm(w, x, y, z)
       {
         googleForm.sendFormData({
-          "entry.2087601200": x,
+          "entry.2087601200": w,
+          "entry.81884155": x,
           "entry.1653447231": y,
           "entry.367772044": z
         });
