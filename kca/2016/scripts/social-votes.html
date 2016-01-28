@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>social votes (kca 2016)</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	<style>
+		body {
+			font-family:'Open Sans';
+			padding:10px;
+			margin:0px;
+		}
+		table {
+			width:300px;
+			padding-bottom:40px;
+			display:none;
+		}
+		tr.top {
+		}
+		td {
+			width:50%;
+		}
+		td.headings {
+			text-decoration: underline;
+		}
+		span {
+			font-size:18px;
+			font-weight:bold;
+		}
+		div#loading {
+			font-size:20px;
+			font-weight:bold;
+			width:300px;
+		}
+		div#loading img{
+			width:100%;
+			max-width:300px;
+
+		}
+	</style>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript">
+		var total=0;
+		var timestamp=new Date().getTime();
+		$(document).ready(function () {
+			ajax1();
+		});
+		function numberWithCommas(x) 
+		{
+			if ( x % 1 === 0 )
+		    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+		}
+		function displayResult(x) {
+			console.log(x);
+			name = x["name"];
+			name = name.substring(0,name.indexOf("-"));
+			buckets = x["buckets"];
+
+			console.log(name + ": " + buckets.total.length);
+			if ( buckets.total.length > 0 ){
+				$("table").append('<tr><td colspan=2 class=headings><span>' + name + '</span></td></tr>');
+				for (i=0; i<buckets.total.length; i++){
+					console.log(buckets.total[i].title);
+					trclass = '';
+					title = buckets.total[i].title;
+					count = buckets.total[i].count;
+					total = total + buckets.total[i].count;
+					if (buckets.top.length > 0 && buckets.top[0].title === buckets.total[i].title)
+						trclass = ' class="top"';
+					$("table").append('<tr' + trclass + '><td align=left>' + title + '</td><td align=right>' + numberWithCommas(count) + '</td></tr>');
+				}
+			}
+		}
+		function displayTotal() {
+			$("h1").html("Total: " + numberWithCommas(total));
+			$("div#loading").hide();
+			$("table").show();
+		}
+
+		function ajax0() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/ema-wwa/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax1();
+			});
+		}
+		function ajax1() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/adria-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax2();
+	    });
+		}
+		function ajax2() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/africa-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax3();
+	    });
+		}
+		function ajax3() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/canada-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax4();
+	    });
+		}
+		function ajax4() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/france-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax5();
+	    });
+		}
+		function ajax5() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/germany-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax6();
+	    });
+		}
+		function ajax6() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/greece-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax7();
+	    });
+		}
+		function ajax7() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/italy-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax25();
+	    });
+		}
+		function ajax25() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/japan-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax8();
+	    });
+		}
+		function ajax8() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/portugal-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax9();
+	    });
+		}
+		function ajax9() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/russia-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax26();
+	    });
+		}
+		function ajax26() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/sea-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax10();
+	    });
+		}
+		function ajax10() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/spain-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax11();
+	    });
+		}
+		function ajax11() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/ukireland-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  ajax12();
+	    });
+		}
+		function ajax12() {
+	    return $.ajax({
+        url: "http://api.massrelevance.com/mtvema/usa-2015ema-prenom/meta.json?" + timestamp,
+        
+        dataType: "json"
+	    }).done(function(a) {
+		  displayResult(a);
+		  displayTotal();
+	    });
+		}
+  </script>
+</head>
+
+<body>
+	<div id="loading">
+		<!--
+		please hold while hover cats are fetching data...<br><img src="http://awesomegifs.com/wp-content/uploads/hover-kitty.gif">
+		-->
+		#wiggle #wiggle<br><img src="http://i.imgur.com/q3e87zR.gif">
+	</div>
+	<h1></h1>
+	<table></table>
+</body>
+
+</html>
