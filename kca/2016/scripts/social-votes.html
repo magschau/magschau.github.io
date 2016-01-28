@@ -50,11 +50,20 @@
 			if ( x % 1 === 0 )
 		    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 		}
+		function sortByTitle(a, b){
+			var aName = a.name.toLowerCase();
+			var bName = b.name.toLowerCase(); 
+			return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));
+		}
 		function displayResult(x) {
 			console.log(x);
 			name = x["name"];
 			name = name.substring(0,name.indexOf("-"));
 			buckets = x["buckets"];
+
+			totalArray = buckets.total;
+			totalArray.sort(sortByTitle);
+			console.log(totalArray);
 
 			console.log(name + ": " + buckets.total.length);
 			if ( buckets.total.length > 0 ){
