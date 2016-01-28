@@ -51,8 +51,8 @@
 		    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 		}
 		function sortByTitle(a, b){
-			var aName = a.name.toLowerCase();
-			var bName = b.name.toLowerCase(); 
+			var aName = a.title.toLowerCase();
+			var bName = b.title.toLowerCase(); 
 			return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));
 		}
 		function displayResult(x) {
