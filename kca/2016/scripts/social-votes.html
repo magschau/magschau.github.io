@@ -63,10 +63,10 @@
 
 			totalArray = buckets.total;
 			totalArray.sort(sortByTitle);
-			console.log(totalArray);
 
 			console.log(name + ": " + buckets.total.length);
 			if ( buckets.total.length > 0 ){
+				$("table").append('<tr><td colspan=2 class=headings><span>&nbsp;</span></td></tr>');
 				$("table").append('<tr><td colspan=2 class=headings><span>' + name + '</span></td></tr>');
 				for (i=0; i<buckets.total.length; i++){
 					console.log(buckets.total[i].title);
