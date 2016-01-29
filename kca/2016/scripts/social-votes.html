@@ -40,6 +40,7 @@
 	</style>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript">
+		var categoryCount=0;
 		var total=0;
 		var timestamp=new Date().getTime();
 		$(document).ready(function () {
@@ -67,7 +68,7 @@
 			console.log(name + ": " + buckets.total.length);
 			if ( buckets.total.length > 0 ){
 				$("table").append('<tr><td colspan=2 class=headings><span>&nbsp;</span></td></tr>');
-				$("table").append('<tr><td class=headings align=left><span>' + name + '</span></td><td align=right>' + numberWithCommas(buckets.total_count) + '</td></tr>');
+				$("table").append('<tr><td class=headings align=left><span>' + categoryCount + '. ' + name + '</span></td><td align=right>' + numberWithCommas(buckets.total_count) + '</td></tr>');
 				for (i=0; i<buckets.total.length; i++){
 					console.log(buckets.total[i].title);
 					trclass = '';
@@ -78,6 +79,7 @@
 						trclass = ' class="top"';
 					$("table").append('<tr' + trclass + '><td align=left>' + title + '</td><td align=right>' + numberWithCommas(count) + '</td></tr>');
 				}
+				categoryCount++;
 			}
 		}
 		function displayTotal() {
