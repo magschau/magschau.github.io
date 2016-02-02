@@ -72,7 +72,7 @@
 
 			console.log(name + ": " + buckets.total.length);
 			$("table").append('<tr><td colspan=2 class=headings><span>&nbsp;</span></td></tr>');
-			$("table").append('<tr><td class=headings align=left><span>' + categoryCount + '. ' + name + '</span></td><td class=headings align=right>' + numberWithCommas(buckets.total_count) + '</td></tr>');
+			$("table").append('<tr><td class=headings align=left><span>' + categoryCount + '. ' + name + '</span></td><td class=headings align=right><span>' + numberWithCommas(buckets.total_count) + '</span></td></tr>');
 			if ( buckets.total.length > 0 ){
 				for (i=0; i<buckets.total.length; i++){
 					console.log(buckets.total[i].title);
