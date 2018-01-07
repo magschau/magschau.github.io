@@ -3,15 +3,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68329707-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-68329707-1');
-	</script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68329707-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-68329707-1');
+		</script>
 		<title> - MAGS CHAU - </title>
 		<style>
 			@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900');
@@ -22,12 +21,19 @@
 				background-color:#232323;
 				color:#0c0c0c;
 			}
-			div {
+			body {
+				height:100%;
+			}
+			div#content {
+				position: absolute;
+				top: 50%; left: 50%;
+				transform: translate(-50%, -50%);
+				width:100%;
+			}
+			div#links {
 				display:flex;
 		    justify-content:center;
 		    align-items:center;
-			}
-			div#links {
 				position:absolute;
 				top:auto;
 				bottom:10px;
@@ -36,15 +42,12 @@
 			h1,h2,h3 {
 				margin:0px 150px 0px 150px;
 				padding:0px;
-				display:flex;
-		    justify-content:center;
-		    align-items:center;
 		    text-align:center;
 			}
 			h1 {
 				font-size:12em;
 				font-weight:900;
-				margin:200px 120px 20px 120px;
+				margin:0px 120px 20px 120px;
 				line-height: 1em;
 			}
 			h2 {
@@ -82,20 +85,22 @@
 	</head>
 
 	<body>
+		<div id="content">
 			<h1>MAGGIE CHAU</h1>
 			<h2>NEW YORK CITY</h2>
 			<h3>PRODUCT @ CBS NEWS</h3>
-			<div id="links">
-				<ul>
-					<li>
-						<a href="https://www.linkedin.com/in/magschau" target="_blank">
-							<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
-						</a>
-					</li>
-					<li></li>
-					<li></li>
-				</ul>
-			</div>
+		</div>
+		<div id="links">
+			<ul>
+				<li>
+					<a href="https://www.linkedin.com/in/magschau" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+					</a>
+				</li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
 	</body>
 </html>
 
