@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>RSVP | ELISA & WING</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="jquery.jqgoogleforms.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        margin:0;
+        padding:0;
+        height:100%;
+        font-family: 'Lato', sans-serif;
+        text-align:center;
+        background-image: url('cover.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      input[type="text"], textarea, button, select {
+        width:60%;
+        margin:10px 0px;
+        padding:5px;
+        font-family: 'Lato', sans-serif;
+        font-size:20px;
+      }
+      h1, h2, h3 {
+        font-family: 'Poiret One', cursive;
+        padding:0px;
+        margin:0px;
+      }
+      h2 {
+        padding-top:5px;
+      }
+      h3 {
+        padding-top:15px;
+        padding-bottom:15px;
+        font-size: 16px;
+      }
+      section#mainContainer {
+        background: rgba(102, 102, 102, .6);
+        padding:20px 0px;
+        width:50%;
+        margin:auto 0px;
+      }
+      div#error, div#success {
+        color:#000000;
+        padding-top:5px;
+        display:none;
+      }
+
+      @media (max-width: 1024px) {
+        section#mainContainer {
+          width: 75%;
+        }
+      }
+
+      @media (max-width: 768px) {
+        section#mainContainer {
+          width: 100%;
+        }
+        input[type="text"], textarea, button, select {
+          width:75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section id="mainContainer">
+      <h1>ELISA & WING</h1>
+      <h2>JANUARY 10th, 2016</h2>
+      <h3>W Taipei <br /> No. 10, Section 5, Zhongxiao E Rd, Xinyi District, Taipei City, Taiwan 110</h3>
+      <input type="text" name="x_name" id="x_name" placeholder="Name" /><br />
+      <input type="text" name="x_email" id="x_email" placeholder="Email" /><br />
+      <textarea name="x_address" id="x_address" placeholder="Address"></textarea><br />
+      <select name="x_plusone" id="x_plusone">
+        <option value="none">Plus 1?</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select><br />
+      <button id="go" name="go" value="Submit">RSVP</button>
+      <div id="error">Submit failed, all fields required.</div>
+      <div id="success">RSVP received, thank you!</div>
+    </section>
+
+<!--
+Name: entry.2087601200
+Email: entry.81884155
+Address: entry.1653447231
+Plus 1: entry.367772044 (value: Yes/No)
+-->
+
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        adjustHeight();
+      });
+      $(window).resize(function() {
+        adjustHeight();
+      });
+      $("button").click(function(){
+        $("#error").hide();
+        a = $("#x_name").val();
+        b = $("#x_email").val();
+        c = $("#x_address").val();
+        d = $("#x_plusone").val();
+        if ( validate() ){
+          goForm(a, b, c, d);
+        }
+      });
+      var googleForm = $(window).jqGoogleForms({"formKey": "1i62Hotc-UNFSUS7N4qa50gkHm6adev7meVn2L1WIR68"});
+
+      function adjustHeight()
+      {
+        var temp_height = $("#mainContainer").height();
+        $("#mainContainer").css("height", $(window).height());
+        $("#mainContainer").css("padding-top", ($(window).height()-temp_height)/2 );
+      }
+
+      function validate()
+      {
+        a = $("#x_name").val();
+        b = $("#x_email").val();
+        c = $("#x_address").val();
+        d = $("#x_plusone").val();
+
+        if (a == "" || b == "" || c == "" || d == "none"){
+          $("#error").fadeIn();
+          return false;
+        }
+        return true;
+      }
+
+      function goForm(w, x, y, z)
+      {
+        googleForm.sendFormData({
+          "entry.2087601200": w,
+          "entry.81884155": x,
+          "entry.1653447231": y,
+          "entry.367772044": z
+        });
+        $("#success").fadeIn();
+      }
+
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-68329707-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

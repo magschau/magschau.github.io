@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<MultimediaGallery>
+<!--
+	<file type="video">
+		<thumb>media/videos/thumbs/html5.png</thumb>
+		<source>http://www.youtube.com/watch?v=siOHh0uzcuY</source>
+		<description>Youtube Video: Introduction to HTML5</description>
+	</file>
+	<file type="audio">
+		<thumb>media/audio/thumbs/audio1.jpg</thumb>
+		<source>media/audio/audio1.ogg</source>
+		<source>media/audio/audio1.mp3</source>
+		<description>Audio Example</description>
+	</file>
+-->
+	<file type="photo">
+		<thumb>media/web/thumbs/01.jpg</thumb>
+		<source>media/web/01.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/01.5.jpg</thumb>
+		<source>media/web/01.5.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/02.jpg</thumb>
+		<source>media/web/02.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/03.jpg</thumb>
+		<source>media/web/03.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/04.jpg</thumb>
+		<source>media/web/04.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/05.jpg</thumb>
+		<source>media/web/05.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/06.jpg</thumb>
+		<source>media/web/06.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/07.jpg</thumb>
+		<source>media/web/07.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/08.jpg</thumb>
+		<source>media/web/08.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/09.jpg</thumb>
+		<source>media/web/09.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/10.jpg</thumb>
+		<source>media/web/10.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/11.jpg</thumb>
+		<source>media/web/11.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/12.jpg</thumb>
+		<source>media/web/12.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/13.jpg</thumb>
+		<source>media/web/13.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/14.jpg</thumb>
+		<source>media/web/14.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/15.jpg</thumb>
+		<source>media/web/15.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/16.jpg</thumb>
+		<source>media/web/16.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/17.jpg</thumb>
+		<source>media/web/17.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/18.jpg</thumb>
+		<source>media/web/18.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/19.jpg</thumb>
+		<source>media/web/19.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/20.jpg</thumb>
+		<source>media/web/20.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/21.jpg</thumb>
+		<source>media/web/21.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/22.jpg</thumb>
+		<source>media/web/22.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/23.jpg</thumb>
+		<source>media/web/23.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/24.jpg</thumb>
+		<source>media/web/24.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/25.jpg</thumb>
+		<source>media/web/25.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/26.jpg</thumb>
+		<source>media/web/26.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/27.jpg</thumb>
+		<source>media/web/27.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/28.jpg</thumb>
+		<source>media/web/28.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/29.jpg</thumb>
+		<source>media/web/29.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/30.jpg</thumb>
+		<source>media/web/30.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/31.jpg</thumb>
+		<source>media/web/31.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/32.jpg</thumb>
+		<source>media/web/32.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/33.jpg</thumb>
+		<source>media/web/33.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/34.jpg</thumb>
+		<source>media/web/34.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/35.jpg</thumb>
+		<source>media/web/35.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/36.jpg</thumb>
+		<source>media/web/36.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/37.jpg</thumb>
+		<source>media/web/37.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/38.jpg</thumb>
+		<source>media/web/38.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/39.jpg</thumb>
+		<source>media/web/39.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/40.jpg</thumb>
+		<source>media/web/40.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/41.jpg</thumb>
+		<source>media/web/41.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/42.jpg</thumb>
+		<source>media/web/42.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/43.jpg</thumb>
+		<source>media/web/43.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/44.jpg</thumb>
+		<source>media/web/44.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/45.jpg</thumb>
+		<source>media/web/45.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/46.jpg</thumb>
+		<source>media/web/46.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/47.jpg</thumb>
+		<source>media/web/47.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/48.jpg</thumb>
+		<source>media/web/48.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/49.jpg</thumb>
+		<source>media/web/49.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/50.jpg</thumb>
+		<source>media/web/50.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/51.jpg</thumb>
+		<source>media/web/51.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/51.5.jpg</thumb>
+		<source>media/web/51.5.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/52.jpg</thumb>
+		<source>media/web/52.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/53.jpg</thumb>
+		<source>media/web/53.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/54.jpg</thumb>
+		<source>media/web/54.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/55.jpg</thumb>
+		<source>media/web/55.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/56.jpg</thumb>
+		<source>media/web/56.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/57.jpg</thumb>
+		<source>media/web/57.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/58.jpg</thumb>
+		<source>media/web/58.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/59.jpg</thumb>
+		<source>media/web/59.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/60.jpg</thumb>
+		<source>media/web/60.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/61.jpg</thumb>
+		<source>media/web/61.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/62.jpg</thumb>
+		<source>media/web/62.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/63.jpg</thumb>
+		<source>media/web/63.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/64.jpg</thumb>
+		<source>media/web/64.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/65.jpg</thumb>
+		<source>media/web/65.jpg</source>
+		<description></description>
+	</file>
+	<file type="photo">
+		<thumb>media/web/thumbs/66.jpg</thumb>
+		<source>media/web/66.jpg</source>
+		<description></description>
+	</file>
+</MultimediaGallery>
